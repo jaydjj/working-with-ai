@@ -16,3 +16,4 @@ Type is **policy** (what something is), **design** (how it looks or behaves) or 
 | 8 | Default sort is alphabetical by project name. | design | Data order; by status | AI default, open to review |
 | 9 | Publishing: `main` deploys to the site root, frozen `baseline` branch deploys to `/baseline/`, both from one GitHub Actions run. | engineering | Tags (not available here); separate repos | Designer (brief) |
 | 10 | Docs are rendered from `docs/*.md` to `/docs/` at build time using the app's tokens. | engineering | Hand-written HTML; a docs framework | Designer (brief) |
+| 11 | **Baseline frozen** at commit `83af58c` on the `baseline` branch, live at [/baseline/](https://jaydjj.github.io/working-with-ai/baseline/). Read-only from here on; every later change goes to `main`. | engineering | Git tag (can't be pushed from this environment) | Designer (brief) |
