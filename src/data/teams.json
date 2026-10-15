@@ -1,0 +1,18 @@
+[
+  {
+    "id": "platform",
+    "name": "Platform"
+  },
+  {
+    "id": "growth",
+    "name": "Growth"
+  },
+  {
+    "id": "data",
+    "name": "Data"
+  },
+  {
+    "id": "security",
+    "name": "Security & Compliance"
+  }
+]

@@ -1,0 +1,26 @@
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 2px var(--space-2);
+  border-radius: var(--radius-pill);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  white-space: nowrap;
+}
+
+.status-badge__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex: none;
+}
+
+.status-badge--on-track { background: var(--color-status-on-track-bg); color: var(--color-status-on-track-fg); }
+.status-badge--on-track .status-badge__dot { background: var(--color-status-on-track-dot); }
+.status-badge--at-risk { background: var(--color-status-at-risk-bg); color: var(--color-status-at-risk-fg); }
+.status-badge--at-risk .status-badge__dot { background: var(--color-status-at-risk-dot); }
+.status-badge--off-track { background: var(--color-status-off-track-bg); color: var(--color-status-off-track-fg); }
+.status-badge--off-track .status-badge__dot { background: var(--color-status-off-track-dot); }
+.status-badge--complete { background: var(--color-status-complete-bg); color: var(--color-status-complete-fg); }
+.status-badge--complete .status-badge__dot { background: var(--color-status-complete-dot); }

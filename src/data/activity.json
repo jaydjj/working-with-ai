@@ -1,0 +1,474 @@
+[
+  {
+    "id": "a59",
+    "date": "2026-10-10",
+    "projectId": "pricing",
+    "actorId": "p7",
+    "type": "comment",
+    "text": "Variant B traffic split live at 50%."
+  },
+  {
+    "id": "a58",
+    "date": "2026-10-09",
+    "projectId": "pay",
+    "actorId": "p1",
+    "type": "status_update",
+    "text": "Status on-track; progress 75%"
+  },
+  {
+    "id": "a57",
+    "date": "2026-10-09",
+    "projectId": "pricing",
+    "actorId": "p4",
+    "type": "status_update",
+    "text": "Status on-track; progress 65%"
+  },
+  {
+    "id": "a56",
+    "date": "2026-10-09",
+    "projectId": "sso",
+    "actorId": "p5",
+    "type": "comment",
+    "text": "OIDC discovery flow passing against all three test IdPs."
+  },
+  {
+    "id": "a55",
+    "date": "2026-10-08",
+    "projectId": "sso",
+    "actorId": "p3",
+    "type": "status_update",
+    "text": "Status on-track; progress 85%"
+  },
+  {
+    "id": "a54",
+    "date": "2026-10-08",
+    "projectId": "pay",
+    "actorId": "p3",
+    "type": "comment",
+    "text": "Reconciliation job still failing in staging on partial refunds."
+  },
+  {
+    "id": "a53",
+    "date": "2026-10-08",
+    "projectId": "mobile",
+    "actorId": "p4",
+    "type": "comment",
+    "text": "Two options for conflict handling drafted for review."
+  },
+  {
+    "id": "a52",
+    "date": "2026-10-07",
+    "projectId": "obs",
+    "actorId": "p1",
+    "type": "status_update",
+    "text": "Status changed from at-risk to off-track; progress 25%"
+  },
+  {
+    "id": "a51",
+    "date": "2026-10-07",
+    "projectId": "dwh",
+    "actorId": "p3",
+    "type": "comment",
+    "text": "Monthly spend down 31% vs August."
+  },
+  {
+    "id": "a50",
+    "date": "2026-10-06",
+    "projectId": "billing",
+    "actorId": "p7",
+    "type": "status_update",
+    "text": "Status on-track; progress 30%"
+  },
+  {
+    "id": "a49",
+    "date": "2026-10-06",
+    "projectId": "pci",
+    "actorId": "p10",
+    "type": "comment",
+    "text": "Auditor asked for a revised diagram. Sent."
+  },
+  {
+    "id": "a48",
+    "date": "2026-10-06",
+    "projectId": "search",
+    "actorId": "p6",
+    "type": "comment",
+    "text": "Click-through baseline captured."
+  },
+  {
+    "id": "a47",
+    "date": "2026-10-05",
+    "projectId": "mobile",
+    "actorId": "p8",
+    "type": "status_update",
+    "text": "Status changed from on-track to at-risk; progress 35%"
+  },
+  {
+    "id": "a46",
+    "date": "2026-10-05",
+    "projectId": "rbac",
+    "actorId": "p3",
+    "type": "comment",
+    "text": "Waiting on SSO group claims to finish role mapping."
+  },
+  {
+    "id": "a45",
+    "date": "2026-10-02",
+    "projectId": "rbac",
+    "actorId": "p5",
+    "type": "status_update",
+    "text": "Status on-track; progress 50%"
+  },
+  {
+    "id": "a44",
+    "date": "2026-10-02",
+    "projectId": "pay",
+    "actorId": "p8",
+    "type": "comment",
+    "text": "Two of us helped PCI with evidence collection this week."
+  },
+  {
+    "id": "a43",
+    "date": "2026-10-01",
+    "projectId": "mobile",
+    "actorId": "p8",
+    "type": "blocker_opened",
+    "text": "Sync conflict resolution approach not agreed"
+  },
+  {
+    "id": "a42",
+    "date": "2026-10-01",
+    "projectId": "obs",
+    "actorId": "p6",
+    "type": "comment",
+    "text": "Dashboards ported for 4 of 11 services."
+  },
+  {
+    "id": "a41",
+    "date": "2026-09-30",
+    "projectId": "search",
+    "actorId": "p7",
+    "type": "status_update",
+    "text": "Status on-track; progress 20%"
+  },
+  {
+    "id": "a40",
+    "date": "2026-09-29",
+    "projectId": "pay",
+    "actorId": "p8",
+    "type": "blocker_opened",
+    "text": "Card network certification test slots not confirmed"
+  },
+  {
+    "id": "a39",
+    "date": "2026-09-29",
+    "projectId": "eu",
+    "actorId": "p10",
+    "type": "status_update",
+    "text": "Status on-track; progress 45%"
+  },
+  {
+    "id": "a38",
+    "date": "2026-09-29",
+    "projectId": "billing",
+    "actorId": "p4",
+    "type": "comment",
+    "text": "Invoice list wireframes reviewed with support."
+  },
+  {
+    "id": "a37",
+    "date": "2026-09-28",
+    "projectId": "pricing",
+    "actorId": "p4",
+    "type": "status_update",
+    "text": "Status on-track; progress 35%"
+  },
+  {
+    "id": "a36",
+    "date": "2026-09-25",
+    "projectId": "qa",
+    "actorId": "p9",
+    "type": "comment",
+    "text": "Nightly run now covers checkout and invoicing flows."
+  },
+  {
+    "id": "a35",
+    "date": "2026-09-24",
+    "projectId": "sso",
+    "actorId": "p3",
+    "type": "status_update",
+    "text": "Status on-track; progress 78%"
+  },
+  {
+    "id": "a34",
+    "date": "2026-09-24",
+    "projectId": "obs",
+    "actorId": "p1",
+    "type": "status_update",
+    "text": "Status changed from on-track to at-risk; progress 22%"
+  },
+  {
+    "id": "a33",
+    "date": "2026-09-24",
+    "projectId": "obs",
+    "actorId": "p1",
+    "type": "blocker_opened",
+    "text": "Vendor contract renewal on hold pending procurement review"
+  },
+  {
+    "id": "a32",
+    "date": "2026-09-23",
+    "projectId": "eu",
+    "actorId": "p6",
+    "type": "comment",
+    "text": "First automated export validated by legal."
+  },
+  {
+    "id": "a31",
+    "date": "2026-09-22",
+    "projectId": "pci",
+    "actorId": "p10",
+    "type": "status_update",
+    "text": "Status changed from on-track to at-risk; progress 40%"
+  },
+  {
+    "id": "a30",
+    "date": "2026-09-22",
+    "projectId": "dwh",
+    "actorId": "p6",
+    "type": "comment",
+    "text": "Migrated the three largest scheduled jobs to reserved capacity."
+  },
+  {
+    "id": "a29",
+    "date": "2026-09-19",
+    "projectId": "onboarding",
+    "actorId": "p9",
+    "type": "comment",
+    "text": "Final QA pass complete. Shipped."
+  },
+  {
+    "id": "a28",
+    "date": "2026-09-18",
+    "projectId": "pay",
+    "actorId": "p1",
+    "type": "status_update",
+    "text": "Status on-track; progress 68%"
+  },
+  {
+    "id": "a27",
+    "date": "2026-09-18",
+    "projectId": "onboarding",
+    "actorId": "p2",
+    "type": "status_update",
+    "text": "Status changed from on-track to complete; progress 100%"
+  },
+  {
+    "id": "a26",
+    "date": "2026-09-17",
+    "projectId": "pci",
+    "actorId": "p10",
+    "type": "comment",
+    "text": "Followed up with auditor again; no date yet."
+  },
+  {
+    "id": "a25",
+    "date": "2026-09-16",
+    "projectId": "billing",
+    "actorId": "p7",
+    "type": "due_date_changed",
+    "text": "Due date moved from 2026-11-27 to 2026-12-11"
+  },
+  {
+    "id": "a24",
+    "date": "2026-09-15",
+    "projectId": "billing",
+    "actorId": "p7",
+    "type": "status_update",
+    "text": "Status on-track; progress 15%"
+  },
+  {
+    "id": "a23",
+    "date": "2026-09-15",
+    "projectId": "dwh",
+    "actorId": "p6",
+    "type": "blocker_resolved",
+    "text": "Finance approval needed for reserved-capacity purchase"
+  },
+  {
+    "id": "a22",
+    "date": "2026-09-15",
+    "projectId": "qa",
+    "actorId": "p9",
+    "type": "status_update",
+    "text": "Status on-track; progress 40%"
+  },
+  {
+    "id": "a21",
+    "date": "2026-09-14",
+    "projectId": "rbac",
+    "actorId": "p5",
+    "type": "status_update",
+    "text": "Status on-track; progress 25%"
+  },
+  {
+    "id": "a20",
+    "date": "2026-09-11",
+    "projectId": "pay",
+    "actorId": "p5",
+    "type": "comment",
+    "text": "Retry logic for settlement webhooks merged."
+  },
+  {
+    "id": "a19",
+    "date": "2026-09-10",
+    "projectId": "sso",
+    "actorId": "p3",
+    "type": "status_update",
+    "text": "Status on-track; progress 70%"
+  },
+  {
+    "id": "a18",
+    "date": "2026-09-10",
+    "projectId": "obs",
+    "actorId": "p1",
+    "type": "status_update",
+    "text": "Status on-track; progress 20%"
+  },
+  {
+    "id": "a17",
+    "date": "2026-09-08",
+    "projectId": "eu",
+    "actorId": "p10",
+    "type": "status_update",
+    "text": "Status on-track; progress 25%"
+  },
+  {
+    "id": "a16",
+    "date": "2026-09-07",
+    "projectId": "mobile",
+    "actorId": "p8",
+    "type": "status_update",
+    "text": "Status on-track; progress 20%"
+  },
+  {
+    "id": "a15",
+    "date": "2026-09-04",
+    "projectId": "onboarding",
+    "actorId": "p2",
+    "type": "status_update",
+    "text": "Status on-track; progress 85%"
+  },
+  {
+    "id": "a14",
+    "date": "2026-09-04",
+    "projectId": "a11y",
+    "actorId": "p8",
+    "type": "comment",
+    "text": "Focus order fixed on the user list page."
+  },
+  {
+    "id": "a13",
+    "date": "2026-09-03",
+    "projectId": "dwh",
+    "actorId": "p6",
+    "type": "status_update",
+    "text": "Status changed from on-track to at-risk; progress 55%"
+  },
+  {
+    "id": "a12",
+    "date": "2026-08-31",
+    "projectId": "pci",
+    "actorId": "p10",
+    "type": "status_update",
+    "text": "Status on-track; progress 30%"
+  },
+  {
+    "id": "a11",
+    "date": "2026-08-28",
+    "projectId": "pay",
+    "actorId": "p1",
+    "type": "status_update",
+    "text": "Status on-track; progress 55%"
+  },
+  {
+    "id": "a10",
+    "date": "2026-08-28",
+    "projectId": "a11y",
+    "actorId": "p2",
+    "type": "status_update",
+    "text": "Status on-track; progress 60%"
+  },
+  {
+    "id": "a9",
+    "date": "2026-08-27",
+    "projectId": "dwh",
+    "actorId": "p6",
+    "type": "blocker_opened",
+    "text": "Finance approval needed for reserved-capacity purchase"
+  },
+  {
+    "id": "a8",
+    "date": "2026-08-25",
+    "projectId": "qa",
+    "actorId": "p9",
+    "type": "status_update",
+    "text": "Status on-track; progress 30%"
+  },
+  {
+    "id": "a7",
+    "date": "2026-08-24",
+    "projectId": "pci",
+    "actorId": "p10",
+    "type": "blocker_opened",
+    "text": "External auditor has not approved the network segmentation design"
+  },
+  {
+    "id": "a6",
+    "date": "2026-08-21",
+    "projectId": "pci",
+    "actorId": "p6",
+    "type": "blocker_resolved",
+    "text": "Missing log retention evidence for Q2"
+  },
+  {
+    "id": "a5",
+    "date": "2026-08-20",
+    "projectId": "dwh",
+    "actorId": "p6",
+    "type": "status_update",
+    "text": "Status on-track; progress 40%"
+  },
+  {
+    "id": "a4",
+    "date": "2026-08-14",
+    "projectId": "a11y",
+    "actorId": "p2",
+    "type": "status_update",
+    "text": "Status on-track; progress 35%"
+  },
+  {
+    "id": "a3",
+    "date": "2026-08-10",
+    "projectId": "pci",
+    "actorId": "p6",
+    "type": "blocker_opened",
+    "text": "Missing log retention evidence for Q2"
+  },
+  {
+    "id": "a2",
+    "date": "2026-08-05",
+    "projectId": "sso",
+    "actorId": "p10",
+    "type": "blocker_resolved",
+    "text": "IdP test tenant provisioning"
+  },
+  {
+    "id": "a1",
+    "date": "2026-07-20",
+    "projectId": "sso",
+    "actorId": "p10",
+    "type": "blocker_opened",
+    "text": "IdP test tenant provisioning"
+  }
+]

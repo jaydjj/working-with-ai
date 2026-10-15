@@ -1,0 +1,496 @@
+[
+  {
+    "id": "pay",
+    "name": "Payments Gateway Migration",
+    "ownerId": "p1",
+    "teamId": "platform",
+    "memberIds": [
+      "p1",
+      "p3",
+      "p5",
+      "p8"
+    ],
+    "priority": "critical",
+    "status": "on-track",
+    "progress": 75,
+    "statusUpdatedAt": "2026-10-09",
+    "startDate": "2026-07-06",
+    "dueDate": "2026-10-30",
+    "tasks": {
+      "total": 96,
+      "done": 44
+    },
+    "weeklyCompleted": [
+      11,
+      9,
+      6,
+      4,
+      2,
+      1
+    ],
+    "dependsOn": [
+      "pci"
+    ],
+    "blockers": [
+      {
+        "id": "b1",
+        "title": "Card network certification test slots not confirmed",
+        "openedAt": "2026-09-29",
+        "resolvedAt": null,
+        "ownerId": "p8"
+      }
+    ]
+  },
+  {
+    "id": "pci",
+    "name": "PCI DSS Compliance Remediation",
+    "ownerId": "p10",
+    "teamId": "security",
+    "memberIds": [
+      "p10",
+      "p3",
+      "p6"
+    ],
+    "priority": "high",
+    "status": "at-risk",
+    "progress": 40,
+    "statusUpdatedAt": "2026-09-22",
+    "startDate": "2026-07-20",
+    "dueDate": "2026-11-13",
+    "tasks": {
+      "total": 38,
+      "done": 15
+    },
+    "weeklyCompleted": [
+      3,
+      3,
+      1,
+      0,
+      1,
+      0
+    ],
+    "dependsOn": [],
+    "blockers": [
+      {
+        "id": "b2",
+        "title": "External auditor has not approved the network segmentation design",
+        "openedAt": "2026-08-24",
+        "resolvedAt": null,
+        "ownerId": "p10"
+      },
+      {
+        "id": "b3",
+        "title": "Missing log retention evidence for Q2",
+        "openedAt": "2026-08-10",
+        "resolvedAt": "2026-08-21",
+        "ownerId": "p6"
+      }
+    ]
+  },
+  {
+    "id": "billing",
+    "name": "Customer Billing Portal Redesign and Self-Serve Invoice Downloads",
+    "ownerId": "p7",
+    "teamId": "growth",
+    "memberIds": [
+      "p7",
+      "p4",
+      "p5",
+      "p3"
+    ],
+    "priority": "high",
+    "status": "on-track",
+    "progress": 30,
+    "statusUpdatedAt": "2026-10-06",
+    "startDate": "2026-09-01",
+    "dueDate": "2026-12-11",
+    "tasks": {
+      "total": 54,
+      "done": 17
+    },
+    "weeklyCompleted": [
+      2,
+      3,
+      4,
+      3,
+      3,
+      2
+    ],
+    "dependsOn": [
+      "pay"
+    ],
+    "blockers": []
+  },
+  {
+    "id": "dwh",
+    "name": "Data Warehouse Cost Reduction",
+    "ownerId": "p6",
+    "teamId": "data",
+    "memberIds": [
+      "p6",
+      "p3"
+    ],
+    "priority": "medium",
+    "status": "at-risk",
+    "progress": 55,
+    "statusUpdatedAt": "2026-09-03",
+    "startDate": "2026-08-03",
+    "dueDate": "2026-11-20",
+    "tasks": {
+      "total": 30,
+      "done": 24
+    },
+    "weeklyCompleted": [
+      1,
+      0,
+      4,
+      6,
+      5,
+      5
+    ],
+    "dependsOn": [],
+    "blockers": [
+      {
+        "id": "b4",
+        "title": "Finance approval needed for reserved-capacity purchase",
+        "openedAt": "2026-08-27",
+        "resolvedAt": "2026-09-15",
+        "ownerId": "p6"
+      }
+    ]
+  },
+  {
+    "id": "a11y",
+    "name": "Internal Admin Tool Accessibility Fixes",
+    "ownerId": "p2",
+    "teamId": "platform",
+    "memberIds": [
+      "p2",
+      "p8"
+    ],
+    "priority": "medium",
+    "status": "on-track",
+    "progress": 60,
+    "statusUpdatedAt": "2026-08-28",
+    "startDate": "2026-07-27",
+    "dueDate": "2026-09-25",
+    "tasks": {
+      "total": 22,
+      "done": 12
+    },
+    "weeklyCompleted": [
+      2,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "dependsOn": [],
+    "blockers": []
+  },
+  {
+    "id": "sso",
+    "name": "SSO for Enterprise Customers (SAML and OIDC)",
+    "ownerId": "p3",
+    "teamId": "security",
+    "memberIds": [
+      "p3",
+      "p10",
+      "p5"
+    ],
+    "priority": "high",
+    "status": "on-track",
+    "progress": 85,
+    "statusUpdatedAt": "2026-10-08",
+    "startDate": "2026-06-15",
+    "dueDate": "2026-10-23",
+    "tasks": {
+      "total": 40,
+      "done": 35
+    },
+    "weeklyCompleted": [
+      3,
+      4,
+      3,
+      2,
+      3,
+      2
+    ],
+    "dependsOn": [],
+    "blockers": [
+      {
+        "id": "b5",
+        "title": "IdP test tenant provisioning",
+        "openedAt": "2026-07-20",
+        "resolvedAt": "2026-08-05",
+        "ownerId": "p10"
+      }
+    ]
+  },
+  {
+    "id": "mobile",
+    "name": "Mobile App Offline Mode for Field Technicians on Android and iOS",
+    "ownerId": "p8",
+    "teamId": "growth",
+    "memberIds": [
+      "p8",
+      "p4",
+      "p3",
+      "p9"
+    ],
+    "priority": "high",
+    "status": "at-risk",
+    "progress": 35,
+    "statusUpdatedAt": "2026-10-05",
+    "startDate": "2026-08-10",
+    "dueDate": "2027-01-29",
+    "tasks": {
+      "total": 70,
+      "done": 22
+    },
+    "weeklyCompleted": [
+      3,
+      4,
+      3,
+      4,
+      3,
+      4
+    ],
+    "dependsOn": [],
+    "blockers": [
+      {
+        "id": "b6",
+        "title": "Sync conflict resolution approach not agreed",
+        "openedAt": "2026-10-01",
+        "resolvedAt": null,
+        "ownerId": "p8"
+      }
+    ]
+  },
+  {
+    "id": "search",
+    "name": "Help Center Search Relevance Improvements",
+    "ownerId": "p7",
+    "teamId": "growth",
+    "memberIds": [
+      "p7",
+      "p6"
+    ],
+    "priority": "low",
+    "status": "on-track",
+    "progress": 20,
+    "statusUpdatedAt": "2026-09-30",
+    "startDate": "2026-09-14",
+    "dueDate": null,
+    "tasks": {
+      "total": 18,
+      "done": 4
+    },
+    "weeklyCompleted": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "dependsOn": [],
+    "blockers": []
+  },
+  {
+    "id": "onboarding",
+    "name": "New Customer Onboarding Checklist",
+    "ownerId": "p2",
+    "teamId": "growth",
+    "memberIds": [
+      "p2",
+      "p4",
+      "p9"
+    ],
+    "priority": "medium",
+    "status": "complete",
+    "progress": 100,
+    "statusUpdatedAt": "2026-09-18",
+    "startDate": "2026-07-01",
+    "dueDate": "2026-09-19",
+    "tasks": {
+      "total": 26,
+      "done": 26
+    },
+    "weeklyCompleted": [
+      4,
+      3,
+      2,
+      0,
+      0,
+      0
+    ],
+    "dependsOn": [],
+    "blockers": []
+  },
+  {
+    "id": "obs",
+    "name": "Observability Stack Consolidation",
+    "ownerId": "p1",
+    "teamId": "platform",
+    "memberIds": [
+      "p1",
+      "p3",
+      "p6"
+    ],
+    "priority": "medium",
+    "status": "off-track",
+    "progress": 25,
+    "statusUpdatedAt": "2026-10-07",
+    "startDate": "2026-08-17",
+    "dueDate": "2026-11-06",
+    "tasks": {
+      "total": 44,
+      "done": 12
+    },
+    "weeklyCompleted": [
+      2,
+      2,
+      1,
+      2,
+      1,
+      2
+    ],
+    "dependsOn": [],
+    "blockers": [
+      {
+        "id": "b7",
+        "title": "Vendor contract renewal on hold pending procurement review",
+        "openedAt": "2026-09-24",
+        "resolvedAt": null,
+        "ownerId": "p1"
+      }
+    ]
+  },
+  {
+    "id": "eu",
+    "name": "Quarterly Compliance Reporting Automation for EU Data Residency",
+    "ownerId": "p10",
+    "teamId": "data",
+    "memberIds": [
+      "p10",
+      "p6",
+      "p3"
+    ],
+    "priority": "high",
+    "status": "on-track",
+    "progress": 45,
+    "statusUpdatedAt": "2026-09-29",
+    "startDate": "2026-08-24",
+    "dueDate": null,
+    "tasks": {
+      "total": 36,
+      "done": 14
+    },
+    "weeklyCompleted": [
+      1,
+      2,
+      3,
+      2,
+      3,
+      3
+    ],
+    "dependsOn": [],
+    "blockers": []
+  },
+  {
+    "id": "rbac",
+    "name": "Role-Based Access Control for Workspace Admins",
+    "ownerId": "p5",
+    "teamId": "platform",
+    "memberIds": [
+      "p5",
+      "p3",
+      "p10"
+    ],
+    "priority": "high",
+    "status": "on-track",
+    "progress": 50,
+    "statusUpdatedAt": "2026-10-02",
+    "startDate": "2026-08-31",
+    "dueDate": "2026-11-27",
+    "tasks": {
+      "total": 32,
+      "done": 15
+    },
+    "weeklyCompleted": [
+      2,
+      3,
+      3,
+      2,
+      3,
+      2
+    ],
+    "dependsOn": [
+      "sso"
+    ],
+    "blockers": []
+  },
+  {
+    "id": "pricing",
+    "name": "Pricing Page Experiment",
+    "ownerId": "p4",
+    "teamId": "growth",
+    "memberIds": [
+      "p4",
+      "p7"
+    ],
+    "priority": "low",
+    "status": "on-track",
+    "progress": 65,
+    "statusUpdatedAt": "2026-10-09",
+    "startDate": "2026-09-21",
+    "dueDate": "2026-10-16",
+    "tasks": {
+      "total": 12,
+      "done": 8
+    },
+    "weeklyCompleted": [
+      0,
+      0,
+      0,
+      3,
+      3,
+      2
+    ],
+    "dependsOn": [],
+    "blockers": []
+  },
+  {
+    "id": "qa",
+    "name": "Automated Regression Suite for Release Pipeline",
+    "ownerId": "p9",
+    "teamId": "platform",
+    "memberIds": [
+      "p9",
+      "p8",
+      "p3"
+    ],
+    "priority": "medium",
+    "status": "on-track",
+    "progress": 40,
+    "statusUpdatedAt": "2026-09-15",
+    "startDate": "2026-08-03",
+    "dueDate": null,
+    "tasks": {
+      "total": 48,
+      "done": 19
+    },
+    "weeklyCompleted": [
+      3,
+      2,
+      3,
+      2,
+      3,
+      2
+    ],
+    "dependsOn": [],
+    "blockers": []
+  }
+]

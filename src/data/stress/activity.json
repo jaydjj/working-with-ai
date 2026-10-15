@@ -1,0 +1,82 @@
+[
+  {
+    "id": "sa0",
+    "date": "2023-01-04",
+    "projectId": "s0",
+    "actorId": "p1",
+    "type": "status_update",
+    "text": "Status on-track"
+  },
+  {
+    "id": "sa1",
+    "date": "2023-01-04",
+    "projectId": "s1",
+    "actorId": "p4",
+    "type": "status_update",
+    "text": "Status on-track"
+  },
+  {
+    "id": "sa2",
+    "date": "2026-10-12",
+    "projectId": "s2",
+    "actorId": "p3",
+    "type": "status_update",
+    "text": "Status complete"
+  },
+  {
+    "id": "sa3",
+    "date": "2023-01-04",
+    "projectId": "s3",
+    "actorId": "p2",
+    "type": "status_update",
+    "text": "Status on-track"
+  },
+  {
+    "id": "sa4",
+    "date": "2023-01-04",
+    "projectId": "s4",
+    "actorId": "p3",
+    "type": "status_update",
+    "text": "Status on-track"
+  },
+  {
+    "id": "sa5",
+    "date": "2026-03-15",
+    "projectId": "s5",
+    "actorId": "p8",
+    "type": "status_update",
+    "text": "Status at-risk"
+  },
+  {
+    "id": "sa6",
+    "date": "2023-01-04",
+    "projectId": "s6",
+    "actorId": "p12",
+    "type": "status_update",
+    "text": "Status at-risk"
+  },
+  {
+    "id": "sa7",
+    "date": "2024-06-30",
+    "projectId": "s7",
+    "actorId": "p7",
+    "type": "status_update",
+    "text": "Status off-track"
+  },
+  {
+    "id": "sa8",
+    "date": "2025-02-11",
+    "projectId": "s8",
+    "actorId": "p5",
+    "type": "status_update",
+    "text": "Status off-track"
+  },
+  {
+    "id": "sa9",
+    "date": "2025-02-11",
+    "projectId": "s9",
+    "actorId": "p12",
+    "type": "status_update",
+    "text": "Status complete"
+  }
+]

@@ -1,0 +1,2394 @@
+[
+  {
+    "id": "s0",
+    "name": "Legacy Mainframe Batch Processing Decommissioning and Data Reconciliation Program for North American, European and Asia-Pacific Business Units",
+    "ownerId": "p1",
+    "teamId": "growth",
+    "memberIds": [
+      "p1",
+      "p10",
+      "p11",
+      "p2"
+    ],
+    "priority": "low",
+    "status": "on-track",
+    "progress": 0,
+    "statusUpdatedAt": "2023-01-04",
+    "startDate": "2024-01-15",
+    "dueDate": "2029-06-30",
+    "tasks": {
+      "total": 368,
+      "done": 106
+    },
+    "weeklyCompleted": [
+      1,
+      1,
+      4,
+      7,
+      7,
+      7
+    ],
+    "dependsOn": [],
+    "blockers": [
+      {
+        "id": "s0b0",
+        "title": "Authentication dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2025-03-16",
+        "resolvedAt": null,
+        "ownerId": "p7"
+      },
+      {
+        "id": "s0b1",
+        "title": "Blocker 2",
+        "openedAt": "2026-06-17",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p5"
+      },
+      {
+        "id": "s0b2",
+        "title": "Blocker 3",
+        "openedAt": "2026-07-10",
+        "resolvedAt": null,
+        "ownerId": "p6"
+      },
+      {
+        "id": "s0b3",
+        "title": "Blocker 4",
+        "openedAt": "2026-08-11",
+        "resolvedAt": null,
+        "ownerId": "p12"
+      },
+      {
+        "id": "s0b4",
+        "title": "Containerization dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2025-06-18",
+        "resolvedAt": null,
+        "ownerId": "p5"
+      },
+      {
+        "id": "s0b5",
+        "title": "Blocker 6",
+        "openedAt": "2025-08-12",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p4"
+      },
+      {
+        "id": "s0b6",
+        "title": "Blocker 7",
+        "openedAt": "2025-03-18",
+        "resolvedAt": null,
+        "ownerId": "p9"
+      },
+      {
+        "id": "s0b7",
+        "title": "Blocker 8",
+        "openedAt": "2026-01-12",
+        "resolvedAt": null,
+        "ownerId": "p7"
+      },
+      {
+        "id": "s0b8",
+        "title": "Decommissioning dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2024-09-10",
+        "resolvedAt": null,
+        "ownerId": "p5"
+      },
+      {
+        "id": "s0b9",
+        "title": "Blocker 10",
+        "openedAt": "2025-09-14",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p5"
+      },
+      {
+        "id": "s0b10",
+        "title": "Blocker 11",
+        "openedAt": "2024-04-13",
+        "resolvedAt": null,
+        "ownerId": "p7"
+      },
+      {
+        "id": "s0b11",
+        "title": "Blocker 12",
+        "openedAt": "2025-03-18",
+        "resolvedAt": null,
+        "ownerId": "p11"
+      },
+      {
+        "id": "s0b12",
+        "title": "Containerization dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2025-05-14",
+        "resolvedAt": null,
+        "ownerId": "p12"
+      },
+      {
+        "id": "s0b13",
+        "title": "Blocker 14",
+        "openedAt": "2025-07-12",
+        "resolvedAt": null,
+        "ownerId": "p5"
+      }
+    ]
+  },
+  {
+    "id": "s1",
+    "name": "ContainerizationOfAllRemainingVirtualMachineWorkloadsWithoutSpaces",
+    "ownerId": "p4",
+    "teamId": "platform",
+    "memberIds": [
+      "p4",
+      "p3",
+      "p9",
+      "p6"
+    ],
+    "priority": "low",
+    "status": "on-track",
+    "progress": 37,
+    "statusUpdatedAt": "2023-01-04",
+    "startDate": "2024-01-15",
+    "dueDate": "2025-01-01",
+    "tasks": {
+      "total": 4,
+      "done": 1
+    },
+    "weeklyCompleted": [
+      0,
+      5,
+      0,
+      1,
+      4,
+      2
+    ],
+    "dependsOn": [],
+    "blockers": []
+  },
+  {
+    "id": "s2",
+    "name": "X",
+    "ownerId": "p3",
+    "teamId": "security",
+    "memberIds": [
+      "p3",
+      "p12",
+      "p10",
+      "p6",
+      "p9",
+      "p11",
+      "p5"
+    ],
+    "priority": "high",
+    "status": "complete",
+    "progress": 100,
+    "statusUpdatedAt": "2026-10-12",
+    "startDate": "2024-01-15",
+    "dueDate": "2026-10-13",
+    "tasks": {
+      "total": 225,
+      "done": 11
+    },
+    "weeklyCompleted": [
+      2,
+      3,
+      2,
+      7,
+      6,
+      1
+    ],
+    "dependsOn": [],
+    "blockers": [
+      {
+        "id": "s2b0",
+        "title": "Containerization dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2026-05-10",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p12"
+      },
+      {
+        "id": "s2b1",
+        "title": "Blocker 2",
+        "openedAt": "2024-07-18",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p11"
+      }
+    ]
+  },
+  {
+    "id": "s3",
+    "name": "Q4",
+    "ownerId": "p2",
+    "teamId": "growth",
+    "memberIds": [
+      "p2",
+      "p12",
+      "p5",
+      "p1",
+      "p11",
+      "p9"
+    ],
+    "priority": "low",
+    "status": "on-track",
+    "progress": 99,
+    "statusUpdatedAt": "2023-01-04",
+    "startDate": "2024-01-15",
+    "dueDate": "2029-06-30",
+    "tasks": {
+      "total": 198,
+      "done": 110
+    },
+    "weeklyCompleted": [
+      6,
+      5,
+      3,
+      4,
+      2,
+      3
+    ],
+    "dependsOn": [
+      "s0",
+      "s1"
+    ],
+    "blockers": [
+      {
+        "id": "s3b0",
+        "title": "Infrastructure dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2025-02-14",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p8"
+      },
+      {
+        "id": "s3b1",
+        "title": "Blocker 2",
+        "openedAt": "2025-06-14",
+        "resolvedAt": null,
+        "ownerId": "p5"
+      },
+      {
+        "id": "s3b2",
+        "title": "Blocker 3",
+        "openedAt": "2026-01-12",
+        "resolvedAt": null,
+        "ownerId": "p3"
+      },
+      {
+        "id": "s3b3",
+        "title": "Blocker 4",
+        "openedAt": "2026-03-12",
+        "resolvedAt": null,
+        "ownerId": "p6"
+      },
+      {
+        "id": "s3b4",
+        "title": "Internationalization dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2026-08-18",
+        "resolvedAt": null,
+        "ownerId": "p9"
+      },
+      {
+        "id": "s3b5",
+        "title": "Blocker 6",
+        "openedAt": "2026-01-16",
+        "resolvedAt": null,
+        "ownerId": "p9"
+      },
+      {
+        "id": "s3b6",
+        "title": "Blocker 7",
+        "openedAt": "2026-01-11",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p2"
+      },
+      {
+        "id": "s3b7",
+        "title": "Blocker 8",
+        "openedAt": "2024-01-15",
+        "resolvedAt": null,
+        "ownerId": "p3"
+      },
+      {
+        "id": "s3b8",
+        "title": "Internationalization dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2024-07-12",
+        "resolvedAt": null,
+        "ownerId": "p12"
+      },
+      {
+        "id": "s3b9",
+        "title": "Blocker 10",
+        "openedAt": "2025-07-16",
+        "resolvedAt": null,
+        "ownerId": "p5"
+      },
+      {
+        "id": "s3b10",
+        "title": "Blocker 11",
+        "openedAt": "2024-03-17",
+        "resolvedAt": null,
+        "ownerId": "p2"
+      },
+      {
+        "id": "s3b11",
+        "title": "Blocker 12",
+        "openedAt": "2026-05-11",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p8"
+      },
+      {
+        "id": "s3b12",
+        "title": "Interoperability dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2024-03-15",
+        "resolvedAt": null,
+        "ownerId": "p6"
+      },
+      {
+        "id": "s3b13",
+        "title": "Blocker 14",
+        "openedAt": "2026-01-13",
+        "resolvedAt": null,
+        "ownerId": "p1"
+      },
+      {
+        "id": "s3b14",
+        "title": "Blocker 15",
+        "openedAt": "2024-04-10",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p12"
+      },
+      {
+        "id": "s3b15",
+        "title": "Blocker 16",
+        "openedAt": "2026-07-13",
+        "resolvedAt": null,
+        "ownerId": "p12"
+      },
+      {
+        "id": "s3b16",
+        "title": "Authentication dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2025-06-13",
+        "resolvedAt": null,
+        "ownerId": "p6"
+      },
+      {
+        "id": "s3b17",
+        "title": "Blocker 18",
+        "openedAt": "2025-06-16",
+        "resolvedAt": null,
+        "ownerId": "p8"
+      },
+      {
+        "id": "s3b18",
+        "title": "Blocker 19",
+        "openedAt": "2026-08-17",
+        "resolvedAt": null,
+        "ownerId": "p6"
+      }
+    ]
+  },
+  {
+    "id": "s4",
+    "name": "Enterprise-wide Identity, Authentication, Authorization and Audit Logging Infrastructure Modernization (Phase 2 of 4)",
+    "ownerId": "p3",
+    "teamId": "platform",
+    "memberIds": [
+      "p3",
+      "p1",
+      "p9",
+      "p11"
+    ],
+    "priority": "critical",
+    "status": "on-track",
+    "progress": 99,
+    "statusUpdatedAt": "2023-01-04",
+    "startDate": "2024-01-15",
+    "dueDate": null,
+    "tasks": {
+      "total": 359,
+      "done": 295
+    },
+    "weeklyCompleted": [
+      125,
+      6,
+      6,
+      2,
+      7,
+      4
+    ],
+    "dependsOn": [
+      "s2",
+      "s2"
+    ],
+    "blockers": [
+      {
+        "id": "s4b0",
+        "title": "Containerization dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2026-02-12",
+        "resolvedAt": null,
+        "ownerId": "p1"
+      }
+    ]
+  },
+  {
+    "id": "s5",
+    "name": "Internationalization & Localization Rollout: 38 Languages, RTL Support, Pluralization Rules, Date/Number Formats",
+    "ownerId": "p8",
+    "teamId": "security",
+    "memberIds": [
+      "p8",
+      "p11",
+      "p1"
+    ],
+    "priority": "medium",
+    "status": "at-risk",
+    "progress": 99,
+    "statusUpdatedAt": "2026-03-15",
+    "startDate": "2024-01-15",
+    "dueDate": null,
+    "tasks": {
+      "total": 40,
+      "done": 1
+    },
+    "weeklyCompleted": [
+      7,
+      6,
+      6,
+      5,
+      6,
+      5
+    ],
+    "dependsOn": [
+      "s0",
+      "s4"
+    ],
+    "blockers": [
+      {
+        "id": "s5b0",
+        "title": "Interoperability dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2025-03-12",
+        "resolvedAt": null,
+        "ownerId": "p8"
+      }
+    ]
+  },
+  {
+    "id": "s6",
+    "name": "Reconciliation Infrastructure Workstream 6 for All Regions Including APAC and LATAM",
+    "ownerId": "p12",
+    "teamId": "security",
+    "memberIds": [
+      "p12",
+      "p9",
+      "p4",
+      "p11",
+      "p2",
+      "p8"
+    ],
+    "priority": "low",
+    "status": "at-risk",
+    "progress": 80,
+    "statusUpdatedAt": "2023-01-04",
+    "startDate": "2024-01-15",
+    "dueDate": "2031-12-31",
+    "tasks": {
+      "total": 22,
+      "done": 1
+    },
+    "weeklyCompleted": [
+      39,
+      4,
+      5,
+      6,
+      1,
+      3
+    ],
+    "dependsOn": [
+      "s3",
+      "s4"
+    ],
+    "blockers": [
+      {
+        "id": "s6b0",
+        "title": "Infrastructure dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2026-09-12",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p1"
+      },
+      {
+        "id": "s6b1",
+        "title": "Blocker 2",
+        "openedAt": "2025-06-11",
+        "resolvedAt": null,
+        "ownerId": "p6"
+      },
+      {
+        "id": "s6b2",
+        "title": "Blocker 3",
+        "openedAt": "2024-01-10",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p8"
+      },
+      {
+        "id": "s6b3",
+        "title": "Blocker 4",
+        "openedAt": "2025-08-16",
+        "resolvedAt": null,
+        "ownerId": "p9"
+      },
+      {
+        "id": "s6b4",
+        "title": "Decommissioning dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2025-09-16",
+        "resolvedAt": null,
+        "ownerId": "p9"
+      },
+      {
+        "id": "s6b5",
+        "title": "Blocker 6",
+        "openedAt": "2025-08-11",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p9"
+      },
+      {
+        "id": "s6b6",
+        "title": "Blocker 7",
+        "openedAt": "2025-04-14",
+        "resolvedAt": null,
+        "ownerId": "p6"
+      },
+      {
+        "id": "s6b7",
+        "title": "Blocker 8",
+        "openedAt": "2024-01-10",
+        "resolvedAt": null,
+        "ownerId": "p5"
+      },
+      {
+        "id": "s6b8",
+        "title": "Interoperability dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2025-02-10",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p11"
+      },
+      {
+        "id": "s6b9",
+        "title": "Blocker 10",
+        "openedAt": "2026-01-16",
+        "resolvedAt": null,
+        "ownerId": "p5"
+      },
+      {
+        "id": "s6b10",
+        "title": "Blocker 11",
+        "openedAt": "2026-08-10",
+        "resolvedAt": null,
+        "ownerId": "p3"
+      },
+      {
+        "id": "s6b11",
+        "title": "Blocker 12",
+        "openedAt": "2025-04-10",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p10"
+      },
+      {
+        "id": "s6b12",
+        "title": "Authentication dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2024-08-17",
+        "resolvedAt": null,
+        "ownerId": "p6"
+      },
+      {
+        "id": "s6b13",
+        "title": "Blocker 14",
+        "openedAt": "2024-03-17",
+        "resolvedAt": null,
+        "ownerId": "p9"
+      }
+    ]
+  },
+  {
+    "id": "s7",
+    "name": "Containerization Authentication Initiative 7 for Internal Tooling",
+    "ownerId": "p7",
+    "teamId": "data",
+    "memberIds": [
+      "p7",
+      "p12",
+      "p4",
+      "p8"
+    ],
+    "priority": "medium",
+    "status": "off-track",
+    "progress": 0,
+    "statusUpdatedAt": "2024-06-30",
+    "startDate": "2024-01-15",
+    "dueDate": null,
+    "tasks": {
+      "total": 153,
+      "done": 76
+    },
+    "weeklyCompleted": [
+      2,
+      6,
+      3,
+      3,
+      30,
+      3
+    ],
+    "dependsOn": [
+      "s0",
+      "s4"
+    ],
+    "blockers": []
+  },
+  {
+    "id": "s8",
+    "name": "Infrastructure Containerization Program 8 for Regulated Markets",
+    "ownerId": "p5",
+    "teamId": "data",
+    "memberIds": [
+      "p5",
+      "p7",
+      "p12",
+      "p4",
+      "p1",
+      "p2",
+      "p11"
+    ],
+    "priority": "low",
+    "status": "off-track",
+    "progress": 100,
+    "statusUpdatedAt": "2025-02-11",
+    "startDate": "2024-01-15",
+    "dueDate": "2026-10-13",
+    "tasks": {
+      "total": 182,
+      "done": 18
+    },
+    "weeklyCompleted": [
+      1,
+      5,
+      7,
+      0,
+      4,
+      5
+    ],
+    "dependsOn": [
+      "s0",
+      "s5"
+    ],
+    "blockers": [
+      {
+        "id": "s8b0",
+        "title": "Interoperability dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2024-02-11",
+        "resolvedAt": null,
+        "ownerId": "p3"
+      },
+      {
+        "id": "s8b1",
+        "title": "Blocker 2",
+        "openedAt": "2025-06-16",
+        "resolvedAt": null,
+        "ownerId": "p6"
+      }
+    ]
+  },
+  {
+    "id": "s9",
+    "name": "Decommissioning Containerization Initiative 9 for Internal Tooling",
+    "ownerId": "p12",
+    "teamId": "security",
+    "memberIds": [
+      "p12",
+      "p7",
+      "p8",
+      "p2",
+      "p3"
+    ],
+    "priority": "critical",
+    "status": "complete",
+    "progress": 33,
+    "statusUpdatedAt": "2025-02-11",
+    "startDate": "2024-01-15",
+    "dueDate": null,
+    "tasks": {
+      "total": 338,
+      "done": 230
+    },
+    "weeklyCompleted": [
+      3,
+      0,
+      6,
+      42,
+      5,
+      1
+    ],
+    "dependsOn": [
+      "s0",
+      "s8"
+    ],
+    "blockers": [
+      {
+        "id": "s9b0",
+        "title": "Interoperability dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2025-06-13",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p11"
+      },
+      {
+        "id": "s9b1",
+        "title": "Blocker 2",
+        "openedAt": "2025-09-12",
+        "resolvedAt": null,
+        "ownerId": "p12"
+      },
+      {
+        "id": "s9b2",
+        "title": "Blocker 3",
+        "openedAt": "2025-06-11",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p6"
+      },
+      {
+        "id": "s9b3",
+        "title": "Blocker 4",
+        "openedAt": "2025-01-15",
+        "resolvedAt": null,
+        "ownerId": "p11"
+      },
+      {
+        "id": "s9b4",
+        "title": "Internationalization dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2024-06-13",
+        "resolvedAt": null,
+        "ownerId": "p4"
+      },
+      {
+        "id": "s9b5",
+        "title": "Blocker 6",
+        "openedAt": "2024-04-13",
+        "resolvedAt": null,
+        "ownerId": "p7"
+      },
+      {
+        "id": "s9b6",
+        "title": "Blocker 7",
+        "openedAt": "2025-04-15",
+        "resolvedAt": null,
+        "ownerId": "p12"
+      },
+      {
+        "id": "s9b7",
+        "title": "Blocker 8",
+        "openedAt": "2025-08-18",
+        "resolvedAt": null,
+        "ownerId": "p5"
+      },
+      {
+        "id": "s9b8",
+        "title": "Containerization dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2024-03-10",
+        "resolvedAt": null,
+        "ownerId": "p2"
+      },
+      {
+        "id": "s9b9",
+        "title": "Blocker 10",
+        "openedAt": "2024-06-11",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p2"
+      },
+      {
+        "id": "s9b10",
+        "title": "Blocker 11",
+        "openedAt": "2026-03-15",
+        "resolvedAt": null,
+        "ownerId": "p1"
+      },
+      {
+        "id": "s9b11",
+        "title": "Blocker 12",
+        "openedAt": "2026-09-16",
+        "resolvedAt": null,
+        "ownerId": "p1"
+      },
+      {
+        "id": "s9b12",
+        "title": "Interoperability dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2024-09-14",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p7"
+      },
+      {
+        "id": "s9b13",
+        "title": "Blocker 14",
+        "openedAt": "2026-07-17",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p2"
+      },
+      {
+        "id": "s9b14",
+        "title": "Blocker 15",
+        "openedAt": "2025-07-10",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p5"
+      },
+      {
+        "id": "s9b15",
+        "title": "Blocker 16",
+        "openedAt": "2026-07-15",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p12"
+      },
+      {
+        "id": "s9b16",
+        "title": "Infrastructure dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2025-07-11",
+        "resolvedAt": null,
+        "ownerId": "p2"
+      }
+    ]
+  },
+  {
+    "id": "s10",
+    "name": "Decommissioning Containerization Program 10 for Enterprise Customers",
+    "ownerId": "p9",
+    "teamId": "data",
+    "memberIds": [
+      "p9",
+      "p11",
+      "p3",
+      "p4",
+      "p7",
+      "p5"
+    ],
+    "priority": "medium",
+    "status": "at-risk",
+    "progress": 55,
+    "statusUpdatedAt": "2026-03-15",
+    "startDate": "2024-01-15",
+    "dueDate": "2024-02-29",
+    "tasks": {
+      "total": 355,
+      "done": 238
+    },
+    "weeklyCompleted": [
+      2,
+      5,
+      1,
+      7,
+      4,
+      7
+    ],
+    "dependsOn": [
+      "s4",
+      "s4"
+    ],
+    "blockers": [
+      {
+        "id": "s10b0",
+        "title": "Authentication dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2024-07-14",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p2"
+      },
+      {
+        "id": "s10b1",
+        "title": "Blocker 2",
+        "openedAt": "2024-01-14",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p3"
+      }
+    ]
+  },
+  {
+    "id": "s11",
+    "name": "Infrastructure Internationalization Workstream 11 for Regulated Markets",
+    "ownerId": "p10",
+    "teamId": "data",
+    "memberIds": [
+      "p10",
+      "p11",
+      "p12",
+      "p1",
+      "p5",
+      "p9",
+      "p2"
+    ],
+    "priority": "high",
+    "status": "on-track",
+    "progress": 100,
+    "statusUpdatedAt": "2024-06-30",
+    "startDate": "2024-01-15",
+    "dueDate": "2024-02-29",
+    "tasks": {
+      "total": 299,
+      "done": 207
+    },
+    "weeklyCompleted": [
+      0,
+      3,
+      164,
+      3,
+      5,
+      0
+    ],
+    "dependsOn": [
+      "s0",
+      "s3"
+    ],
+    "blockers": [
+      {
+        "id": "s11b0",
+        "title": "Internationalization dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2024-07-15",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p7"
+      }
+    ]
+  },
+  {
+    "id": "s12",
+    "name": "Reconciliation Reconciliation Migration 12 for Regulated Markets",
+    "ownerId": "p8",
+    "teamId": "data",
+    "memberIds": [
+      "p8",
+      "p9",
+      "p5",
+      "p11",
+      "p1"
+    ],
+    "priority": "critical",
+    "status": "off-track",
+    "progress": 100,
+    "statusUpdatedAt": "2023-01-04",
+    "startDate": "2024-01-15",
+    "dueDate": "2031-12-31",
+    "tasks": {
+      "total": 74,
+      "done": 72
+    },
+    "weeklyCompleted": [
+      0,
+      5,
+      3,
+      0,
+      6,
+      2
+    ],
+    "dependsOn": [
+      "s7",
+      "s1"
+    ],
+    "blockers": [
+      {
+        "id": "s12b0",
+        "title": "Reconciliation dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2024-04-16",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p6"
+      },
+      {
+        "id": "s12b1",
+        "title": "Blocker 2",
+        "openedAt": "2024-04-11",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p3"
+      },
+      {
+        "id": "s12b2",
+        "title": "Blocker 3",
+        "openedAt": "2025-06-10",
+        "resolvedAt": null,
+        "ownerId": "p2"
+      },
+      {
+        "id": "s12b3",
+        "title": "Blocker 4",
+        "openedAt": "2024-07-16",
+        "resolvedAt": null,
+        "ownerId": "p7"
+      },
+      {
+        "id": "s12b4",
+        "title": "Infrastructure dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2024-03-11",
+        "resolvedAt": null,
+        "ownerId": "p4"
+      },
+      {
+        "id": "s12b5",
+        "title": "Blocker 6",
+        "openedAt": "2024-01-11",
+        "resolvedAt": null,
+        "ownerId": "p12"
+      },
+      {
+        "id": "s12b6",
+        "title": "Blocker 7",
+        "openedAt": "2024-05-15",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p12"
+      },
+      {
+        "id": "s12b7",
+        "title": "Blocker 8",
+        "openedAt": "2026-07-18",
+        "resolvedAt": null,
+        "ownerId": "p2"
+      },
+      {
+        "id": "s12b8",
+        "title": "Decommissioning dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2025-03-11",
+        "resolvedAt": null,
+        "ownerId": "p10"
+      },
+      {
+        "id": "s12b9",
+        "title": "Blocker 10",
+        "openedAt": "2025-07-17",
+        "resolvedAt": null,
+        "ownerId": "p7"
+      },
+      {
+        "id": "s12b10",
+        "title": "Blocker 11",
+        "openedAt": "2024-04-18",
+        "resolvedAt": null,
+        "ownerId": "p9"
+      },
+      {
+        "id": "s12b11",
+        "title": "Blocker 12",
+        "openedAt": "2026-04-16",
+        "resolvedAt": null,
+        "ownerId": "p7"
+      },
+      {
+        "id": "s12b12",
+        "title": "Internationalization dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2025-01-14",
+        "resolvedAt": null,
+        "ownerId": "p5"
+      },
+      {
+        "id": "s12b13",
+        "title": "Blocker 14",
+        "openedAt": "2024-05-11",
+        "resolvedAt": null,
+        "ownerId": "p2"
+      },
+      {
+        "id": "s12b14",
+        "title": "Blocker 15",
+        "openedAt": "2024-07-15",
+        "resolvedAt": null,
+        "ownerId": "p11"
+      },
+      {
+        "id": "s12b15",
+        "title": "Blocker 16",
+        "openedAt": "2026-07-17",
+        "resolvedAt": null,
+        "ownerId": "p11"
+      },
+      {
+        "id": "s12b16",
+        "title": "Decommissioning dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2025-01-10",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p1"
+      },
+      {
+        "id": "s12b17",
+        "title": "Blocker 18",
+        "openedAt": "2025-07-11",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p1"
+      },
+      {
+        "id": "s12b18",
+        "title": "Blocker 19",
+        "openedAt": "2026-09-17",
+        "resolvedAt": null,
+        "ownerId": "p12"
+      },
+      {
+        "id": "s12b19",
+        "title": "Blocker 20",
+        "openedAt": "2026-05-15",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p5"
+      }
+    ]
+  },
+  {
+    "id": "s13",
+    "name": "Infrastructure Containerization Initiative 13 for Regulated Markets",
+    "ownerId": "p4",
+    "teamId": "growth",
+    "memberIds": [
+      "p4",
+      "p6",
+      "p12",
+      "p10"
+    ],
+    "priority": "low",
+    "status": "on-track",
+    "progress": 3,
+    "statusUpdatedAt": "2025-02-11",
+    "startDate": "2024-01-15",
+    "dueDate": null,
+    "tasks": {
+      "total": 264,
+      "done": 21
+    },
+    "weeklyCompleted": [
+      4,
+      3,
+      6,
+      0,
+      47,
+      7
+    ],
+    "dependsOn": [
+      "s8",
+      "s10"
+    ],
+    "blockers": [
+      {
+        "id": "s13b0",
+        "title": "Infrastructure dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2024-09-12",
+        "resolvedAt": null,
+        "ownerId": "p1"
+      }
+    ]
+  },
+  {
+    "id": "s14",
+    "name": "Reconciliation Decommissioning Workstream 14 for Regulated Markets",
+    "ownerId": "p1",
+    "teamId": "security",
+    "memberIds": [
+      "p1"
+    ],
+    "priority": "critical",
+    "status": "complete",
+    "progress": 99,
+    "statusUpdatedAt": "2023-01-04",
+    "startDate": "2024-01-15",
+    "dueDate": "2025-01-01",
+    "tasks": {
+      "total": 244,
+      "done": 214
+    },
+    "weeklyCompleted": [
+      3,
+      5,
+      16,
+      3,
+      5,
+      7
+    ],
+    "dependsOn": [
+      "s10",
+      "s4"
+    ],
+    "blockers": []
+  },
+  {
+    "id": "s15",
+    "name": "Reconciliation Internationalization Program 15 for Enterprise Customers",
+    "ownerId": "p9",
+    "teamId": "data",
+    "memberIds": [
+      "p9",
+      "p11",
+      "p3",
+      "p1",
+      "p5"
+    ],
+    "priority": "low",
+    "status": "off-track",
+    "progress": 95,
+    "statusUpdatedAt": "2026-03-15",
+    "startDate": "2024-01-15",
+    "dueDate": "2031-12-31",
+    "tasks": {
+      "total": 300,
+      "done": 218
+    },
+    "weeklyCompleted": [
+      5,
+      7,
+      6,
+      7,
+      98,
+      1
+    ],
+    "dependsOn": [
+      "s11",
+      "s12"
+    ],
+    "blockers": [
+      {
+        "id": "s15b0",
+        "title": "Containerization dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2026-06-11",
+        "resolvedAt": null,
+        "ownerId": "p9"
+      },
+      {
+        "id": "s15b1",
+        "title": "Blocker 2",
+        "openedAt": "2024-04-11",
+        "resolvedAt": null,
+        "ownerId": "p3"
+      },
+      {
+        "id": "s15b2",
+        "title": "Blocker 3",
+        "openedAt": "2025-08-16",
+        "resolvedAt": null,
+        "ownerId": "p2"
+      },
+      {
+        "id": "s15b3",
+        "title": "Blocker 4",
+        "openedAt": "2026-08-10",
+        "resolvedAt": null,
+        "ownerId": "p5"
+      },
+      {
+        "id": "s15b4",
+        "title": "Interoperability dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2024-03-14",
+        "resolvedAt": null,
+        "ownerId": "p8"
+      },
+      {
+        "id": "s15b5",
+        "title": "Blocker 6",
+        "openedAt": "2025-01-13",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p12"
+      },
+      {
+        "id": "s15b6",
+        "title": "Blocker 7",
+        "openedAt": "2024-03-15",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p12"
+      },
+      {
+        "id": "s15b7",
+        "title": "Blocker 8",
+        "openedAt": "2024-03-17",
+        "resolvedAt": null,
+        "ownerId": "p12"
+      },
+      {
+        "id": "s15b8",
+        "title": "Interoperability dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2024-08-13",
+        "resolvedAt": null,
+        "ownerId": "p11"
+      },
+      {
+        "id": "s15b9",
+        "title": "Blocker 10",
+        "openedAt": "2025-07-16",
+        "resolvedAt": null,
+        "ownerId": "p11"
+      },
+      {
+        "id": "s15b10",
+        "title": "Blocker 11",
+        "openedAt": "2026-01-14",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p6"
+      },
+      {
+        "id": "s15b11",
+        "title": "Blocker 12",
+        "openedAt": "2025-07-14",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p12"
+      },
+      {
+        "id": "s15b12",
+        "title": "Infrastructure dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2026-05-15",
+        "resolvedAt": null,
+        "ownerId": "p9"
+      },
+      {
+        "id": "s15b13",
+        "title": "Blocker 14",
+        "openedAt": "2026-03-16",
+        "resolvedAt": null,
+        "ownerId": "p9"
+      },
+      {
+        "id": "s15b14",
+        "title": "Blocker 15",
+        "openedAt": "2026-08-16",
+        "resolvedAt": null,
+        "ownerId": "p2"
+      },
+      {
+        "id": "s15b15",
+        "title": "Blocker 16",
+        "openedAt": "2025-04-18",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p9"
+      },
+      {
+        "id": "s15b16",
+        "title": "Decommissioning dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2025-05-10",
+        "resolvedAt": null,
+        "ownerId": "p1"
+      }
+    ]
+  },
+  {
+    "id": "s16",
+    "name": "Internationalization Reconciliation Initiative 16 for Internal Tooling",
+    "ownerId": "p5",
+    "teamId": "security",
+    "memberIds": [
+      "p5",
+      "p11",
+      "p2",
+      "p3",
+      "p10"
+    ],
+    "priority": "high",
+    "status": "off-track",
+    "progress": 99,
+    "statusUpdatedAt": "2025-02-11",
+    "startDate": "2024-01-15",
+    "dueDate": "2024-02-29",
+    "tasks": {
+      "total": 219,
+      "done": 176
+    },
+    "weeklyCompleted": [
+      0,
+      3,
+      0,
+      1,
+      3,
+      4
+    ],
+    "dependsOn": [
+      "s9",
+      "s0"
+    ],
+    "blockers": [
+      {
+        "id": "s16b0",
+        "title": "Infrastructure dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2025-05-14",
+        "resolvedAt": null,
+        "ownerId": "p4"
+      }
+    ]
+  },
+  {
+    "id": "s17",
+    "name": "Interoperability Infrastructure Program 17 for Internal Tooling",
+    "ownerId": "p6",
+    "teamId": "security",
+    "memberIds": [
+      "p6",
+      "p12",
+      "p10",
+      "p11",
+      "p4"
+    ],
+    "priority": "high",
+    "status": "on-track",
+    "progress": 99,
+    "statusUpdatedAt": "2024-06-30",
+    "startDate": "2024-01-15",
+    "dueDate": "2026-10-13",
+    "tasks": {
+      "total": 363,
+      "done": 164
+    },
+    "weeklyCompleted": [
+      4,
+      0,
+      5,
+      2,
+      6,
+      4
+    ],
+    "dependsOn": [
+      "s13",
+      "s3"
+    ],
+    "blockers": [
+      {
+        "id": "s17b0",
+        "title": "Reconciliation dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2024-05-13",
+        "resolvedAt": null,
+        "ownerId": "p6"
+      },
+      {
+        "id": "s17b1",
+        "title": "Blocker 2",
+        "openedAt": "2025-02-10",
+        "resolvedAt": null,
+        "ownerId": "p10"
+      }
+    ]
+  },
+  {
+    "id": "s18",
+    "name": "Decommissioning Interoperability Initiative 18 for Enterprise Customers",
+    "ownerId": "p8",
+    "teamId": "data",
+    "memberIds": [
+      "p8",
+      "p12",
+      "p3",
+      "p6",
+      "p7",
+      "p5",
+      "p10"
+    ],
+    "priority": "high",
+    "status": "on-track",
+    "progress": 100,
+    "statusUpdatedAt": "2024-06-30",
+    "startDate": "2024-01-15",
+    "dueDate": "2029-06-30",
+    "tasks": {
+      "total": 150,
+      "done": 136
+    },
+    "weeklyCompleted": [
+      4,
+      0,
+      5,
+      0,
+      6,
+      7
+    ],
+    "dependsOn": [
+      "s5",
+      "s0"
+    ],
+    "blockers": [
+      {
+        "id": "s18b0",
+        "title": "Infrastructure dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2024-07-17",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p9"
+      },
+      {
+        "id": "s18b1",
+        "title": "Blocker 2",
+        "openedAt": "2026-07-10",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p7"
+      },
+      {
+        "id": "s18b2",
+        "title": "Blocker 3",
+        "openedAt": "2025-01-11",
+        "resolvedAt": null,
+        "ownerId": "p7"
+      },
+      {
+        "id": "s18b3",
+        "title": "Blocker 4",
+        "openedAt": "2024-06-15",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p7"
+      },
+      {
+        "id": "s18b4",
+        "title": "Interoperability dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2024-04-15",
+        "resolvedAt": null,
+        "ownerId": "p10"
+      },
+      {
+        "id": "s18b5",
+        "title": "Blocker 6",
+        "openedAt": "2024-09-14",
+        "resolvedAt": null,
+        "ownerId": "p12"
+      },
+      {
+        "id": "s18b6",
+        "title": "Blocker 7",
+        "openedAt": "2025-08-11",
+        "resolvedAt": null,
+        "ownerId": "p2"
+      },
+      {
+        "id": "s18b7",
+        "title": "Blocker 8",
+        "openedAt": "2026-04-11",
+        "resolvedAt": null,
+        "ownerId": "p7"
+      },
+      {
+        "id": "s18b8",
+        "title": "Containerization dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2024-09-13",
+        "resolvedAt": null,
+        "ownerId": "p10"
+      },
+      {
+        "id": "s18b9",
+        "title": "Blocker 10",
+        "openedAt": "2026-06-17",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p6"
+      },
+      {
+        "id": "s18b10",
+        "title": "Blocker 11",
+        "openedAt": "2026-07-12",
+        "resolvedAt": null,
+        "ownerId": "p10"
+      },
+      {
+        "id": "s18b11",
+        "title": "Blocker 12",
+        "openedAt": "2025-03-15",
+        "resolvedAt": null,
+        "ownerId": "p8"
+      },
+      {
+        "id": "s18b12",
+        "title": "Decommissioning dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2026-09-11",
+        "resolvedAt": null,
+        "ownerId": "p12"
+      },
+      {
+        "id": "s18b13",
+        "title": "Blocker 14",
+        "openedAt": "2026-02-11",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p5"
+      },
+      {
+        "id": "s18b14",
+        "title": "Blocker 15",
+        "openedAt": "2026-09-10",
+        "resolvedAt": null,
+        "ownerId": "p6"
+      },
+      {
+        "id": "s18b15",
+        "title": "Blocker 16",
+        "openedAt": "2024-01-13",
+        "resolvedAt": null,
+        "ownerId": "p1"
+      },
+      {
+        "id": "s18b16",
+        "title": "Decommissioning dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2025-03-14",
+        "resolvedAt": null,
+        "ownerId": "p3"
+      },
+      {
+        "id": "s18b17",
+        "title": "Blocker 18",
+        "openedAt": "2024-09-17",
+        "resolvedAt": null,
+        "ownerId": "p12"
+      }
+    ]
+  },
+  {
+    "id": "s19",
+    "name": "Infrastructure Reconciliation Initiative 19 for Internal Tooling",
+    "ownerId": "p3",
+    "teamId": "growth",
+    "memberIds": [
+      "p3",
+      "p4",
+      "p5",
+      "p12"
+    ],
+    "priority": "low",
+    "status": "on-track",
+    "progress": 3,
+    "statusUpdatedAt": "2026-10-12",
+    "startDate": "2024-01-15",
+    "dueDate": "2026-10-12",
+    "tasks": {
+      "total": 253,
+      "done": 208
+    },
+    "weeklyCompleted": [
+      0,
+      6,
+      6,
+      0,
+      6,
+      2
+    ],
+    "dependsOn": [
+      "s17",
+      "s16"
+    ],
+    "blockers": []
+  },
+  {
+    "id": "s20",
+    "name": "Infrastructure Infrastructure Initiative 20 for Regulated Markets",
+    "ownerId": "p11",
+    "teamId": "data",
+    "memberIds": [
+      "p11",
+      "p3",
+      "p2",
+      "p12",
+      "p10"
+    ],
+    "priority": "high",
+    "status": "at-risk",
+    "progress": 100,
+    "statusUpdatedAt": "2026-03-15",
+    "startDate": "2024-01-15",
+    "dueDate": "2031-12-31",
+    "tasks": {
+      "total": 356,
+      "done": 115
+    },
+    "weeklyCompleted": [
+      3,
+      3,
+      2,
+      141,
+      6,
+      1
+    ],
+    "dependsOn": [
+      "s8",
+      "s3"
+    ],
+    "blockers": [
+      {
+        "id": "s20b0",
+        "title": "Internationalization dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2025-01-10",
+        "resolvedAt": null,
+        "ownerId": "p11"
+      }
+    ]
+  },
+  {
+    "id": "s21",
+    "name": "Interoperability Reconciliation Program 21 for Internal Tooling",
+    "ownerId": "p1",
+    "teamId": "data",
+    "memberIds": [
+      "p1",
+      "p3",
+      "p4",
+      "p5",
+      "p7"
+    ],
+    "priority": "low",
+    "status": "at-risk",
+    "progress": 99,
+    "statusUpdatedAt": "2023-01-04",
+    "startDate": "2024-01-15",
+    "dueDate": "2026-10-12",
+    "tasks": {
+      "total": 93,
+      "done": 23
+    },
+    "weeklyCompleted": [
+      55,
+      6,
+      1,
+      3,
+      7,
+      2
+    ],
+    "dependsOn": [
+      "s10",
+      "s11"
+    ],
+    "blockers": [
+      {
+        "id": "s21b0",
+        "title": "Containerization dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2026-06-12",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p3"
+      },
+      {
+        "id": "s21b1",
+        "title": "Blocker 2",
+        "openedAt": "2025-01-11",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p7"
+      },
+      {
+        "id": "s21b2",
+        "title": "Blocker 3",
+        "openedAt": "2025-02-15",
+        "resolvedAt": null,
+        "ownerId": "p3"
+      },
+      {
+        "id": "s21b3",
+        "title": "Blocker 4",
+        "openedAt": "2024-02-16",
+        "resolvedAt": null,
+        "ownerId": "p12"
+      },
+      {
+        "id": "s21b4",
+        "title": "Authentication dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2026-02-11",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p3"
+      },
+      {
+        "id": "s21b5",
+        "title": "Blocker 6",
+        "openedAt": "2025-08-11",
+        "resolvedAt": null,
+        "ownerId": "p9"
+      },
+      {
+        "id": "s21b6",
+        "title": "Blocker 7",
+        "openedAt": "2025-01-17",
+        "resolvedAt": null,
+        "ownerId": "p4"
+      },
+      {
+        "id": "s21b7",
+        "title": "Blocker 8",
+        "openedAt": "2024-02-15",
+        "resolvedAt": null,
+        "ownerId": "p10"
+      },
+      {
+        "id": "s21b8",
+        "title": "Authentication dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2024-01-11",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p11"
+      },
+      {
+        "id": "s21b9",
+        "title": "Blocker 10",
+        "openedAt": "2026-02-17",
+        "resolvedAt": null,
+        "ownerId": "p12"
+      },
+      {
+        "id": "s21b10",
+        "title": "Blocker 11",
+        "openedAt": "2026-07-16",
+        "resolvedAt": null,
+        "ownerId": "p10"
+      },
+      {
+        "id": "s21b11",
+        "title": "Blocker 12",
+        "openedAt": "2025-08-11",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p4"
+      },
+      {
+        "id": "s21b12",
+        "title": "Decommissioning dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2025-03-10",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p3"
+      },
+      {
+        "id": "s21b13",
+        "title": "Blocker 14",
+        "openedAt": "2026-02-14",
+        "resolvedAt": null,
+        "ownerId": "p3"
+      },
+      {
+        "id": "s21b14",
+        "title": "Blocker 15",
+        "openedAt": "2024-09-18",
+        "resolvedAt": null,
+        "ownerId": "p5"
+      }
+    ]
+  },
+  {
+    "id": "s22",
+    "name": "Infrastructure Authentication Migration 22 for Enterprise Customers",
+    "ownerId": "p9",
+    "teamId": "platform",
+    "memberIds": [
+      "p9",
+      "p5",
+      "p1",
+      "p6",
+      "p3",
+      "p4",
+      "p7"
+    ],
+    "priority": "medium",
+    "status": "at-risk",
+    "progress": 3,
+    "statusUpdatedAt": "2026-03-15",
+    "startDate": "2024-01-15",
+    "dueDate": "2026-10-13",
+    "tasks": {
+      "total": 312,
+      "done": 19
+    },
+    "weeklyCompleted": [
+      6,
+      2,
+      71,
+      1,
+      5,
+      2
+    ],
+    "dependsOn": [
+      "s3",
+      "s6"
+    ],
+    "blockers": [
+      {
+        "id": "s22b0",
+        "title": "Infrastructure dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2026-02-18",
+        "resolvedAt": null,
+        "ownerId": "p11"
+      },
+      {
+        "id": "s22b1",
+        "title": "Blocker 2",
+        "openedAt": "2024-03-18",
+        "resolvedAt": null,
+        "ownerId": "p8"
+      }
+    ]
+  },
+  {
+    "id": "s23",
+    "name": "Reconciliation Authentication Program 23 for Regulated Markets",
+    "ownerId": "p11",
+    "teamId": "security",
+    "memberIds": [
+      "p11",
+      "p3",
+      "p9",
+      "p12"
+    ],
+    "priority": "high",
+    "status": "at-risk",
+    "progress": 99,
+    "statusUpdatedAt": "2023-01-04",
+    "startDate": "2024-01-15",
+    "dueDate": "2024-02-29",
+    "tasks": {
+      "total": 237,
+      "done": 104
+    },
+    "weeklyCompleted": [
+      3,
+      4,
+      5,
+      4,
+      5,
+      1
+    ],
+    "dependsOn": [
+      "s3",
+      "s16"
+    ],
+    "blockers": [
+      {
+        "id": "s23b0",
+        "title": "Infrastructure dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2025-02-14",
+        "resolvedAt": null,
+        "ownerId": "p11"
+      }
+    ]
+  },
+  {
+    "id": "s24",
+    "name": "Internationalization Containerization Migration 24 for Enterprise Customers",
+    "ownerId": "p8",
+    "teamId": "data",
+    "memberIds": [
+      "p8",
+      "p11",
+      "p2",
+      "p12",
+      "p9",
+      "p4"
+    ],
+    "priority": "medium",
+    "status": "off-track",
+    "progress": 76,
+    "statusUpdatedAt": "2026-03-15",
+    "startDate": "2024-01-15",
+    "dueDate": null,
+    "tasks": {
+      "total": 317,
+      "done": 250
+    },
+    "weeklyCompleted": [
+      4,
+      92,
+      7,
+      3,
+      7,
+      6
+    ],
+    "dependsOn": [
+      "s15",
+      "s20"
+    ],
+    "blockers": [
+      {
+        "id": "s24b0",
+        "title": "Reconciliation dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2024-02-17",
+        "resolvedAt": null,
+        "ownerId": "p11"
+      },
+      {
+        "id": "s24b1",
+        "title": "Blocker 2",
+        "openedAt": "2025-06-17",
+        "resolvedAt": null,
+        "ownerId": "p5"
+      },
+      {
+        "id": "s24b2",
+        "title": "Blocker 3",
+        "openedAt": "2024-08-16",
+        "resolvedAt": null,
+        "ownerId": "p4"
+      },
+      {
+        "id": "s24b3",
+        "title": "Blocker 4",
+        "openedAt": "2024-08-13",
+        "resolvedAt": null,
+        "ownerId": "p2"
+      },
+      {
+        "id": "s24b4",
+        "title": "Containerization dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2024-02-14",
+        "resolvedAt": null,
+        "ownerId": "p10"
+      },
+      {
+        "id": "s24b5",
+        "title": "Blocker 6",
+        "openedAt": "2025-09-16",
+        "resolvedAt": null,
+        "ownerId": "p9"
+      },
+      {
+        "id": "s24b6",
+        "title": "Blocker 7",
+        "openedAt": "2026-09-15",
+        "resolvedAt": null,
+        "ownerId": "p2"
+      },
+      {
+        "id": "s24b7",
+        "title": "Blocker 8",
+        "openedAt": "2024-09-16",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p12"
+      },
+      {
+        "id": "s24b8",
+        "title": "Infrastructure dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2026-08-11",
+        "resolvedAt": null,
+        "ownerId": "p8"
+      },
+      {
+        "id": "s24b9",
+        "title": "Blocker 10",
+        "openedAt": "2026-04-18",
+        "resolvedAt": null,
+        "ownerId": "p9"
+      },
+      {
+        "id": "s24b10",
+        "title": "Blocker 11",
+        "openedAt": "2025-03-15",
+        "resolvedAt": null,
+        "ownerId": "p6"
+      },
+      {
+        "id": "s24b11",
+        "title": "Blocker 12",
+        "openedAt": "2026-05-10",
+        "resolvedAt": null,
+        "ownerId": "p12"
+      },
+      {
+        "id": "s24b12",
+        "title": "Interoperability dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2025-01-15",
+        "resolvedAt": null,
+        "ownerId": "p2"
+      },
+      {
+        "id": "s24b13",
+        "title": "Blocker 14",
+        "openedAt": "2024-08-10",
+        "resolvedAt": null,
+        "ownerId": "p6"
+      }
+    ]
+  },
+  {
+    "id": "s25",
+    "name": "Authentication Authentication Initiative 25 for All Regions Including APAC and LATAM",
+    "ownerId": "p4",
+    "teamId": "security",
+    "memberIds": [
+      "p4"
+    ],
+    "priority": "critical",
+    "status": "complete",
+    "progress": 0,
+    "statusUpdatedAt": "2024-06-30",
+    "startDate": "2024-01-15",
+    "dueDate": "2026-10-12",
+    "tasks": {
+      "total": 327,
+      "done": 298
+    },
+    "weeklyCompleted": [
+      4,
+      6,
+      3,
+      1,
+      3,
+      0
+    ],
+    "dependsOn": [
+      "s15",
+      "s3"
+    ],
+    "blockers": []
+  },
+  {
+    "id": "s26",
+    "name": "Decommissioning Authentication Program 26 for All Regions Including APAC and LATAM",
+    "ownerId": "p9",
+    "teamId": "data",
+    "memberIds": [
+      "p9",
+      "p11"
+    ],
+    "priority": "critical",
+    "status": "on-track",
+    "progress": 100,
+    "statusUpdatedAt": "2023-01-04",
+    "startDate": "2024-01-15",
+    "dueDate": "2026-10-13",
+    "tasks": {
+      "total": 132,
+      "done": 82
+    },
+    "weeklyCompleted": [
+      49,
+      4,
+      7,
+      5,
+      4,
+      7
+    ],
+    "dependsOn": [
+      "s0",
+      "s15"
+    ],
+    "blockers": [
+      {
+        "id": "s26b0",
+        "title": "Internationalization dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2024-02-14",
+        "resolvedAt": null,
+        "ownerId": "p9"
+      },
+      {
+        "id": "s26b1",
+        "title": "Blocker 2",
+        "openedAt": "2026-04-17",
+        "resolvedAt": null,
+        "ownerId": "p5"
+      }
+    ]
+  },
+  {
+    "id": "s27",
+    "name": "Infrastructure Interoperability Migration 27 for Internal Tooling",
+    "ownerId": "p5",
+    "teamId": "data",
+    "memberIds": [
+      "p5",
+      "p10"
+    ],
+    "priority": "low",
+    "status": "on-track",
+    "progress": 0,
+    "statusUpdatedAt": "2026-03-15",
+    "startDate": "2024-01-15",
+    "dueDate": "2025-01-01",
+    "tasks": {
+      "total": 194,
+      "done": 98
+    },
+    "weeklyCompleted": [
+      1,
+      4,
+      3,
+      0,
+      2,
+      1
+    ],
+    "dependsOn": [
+      "s8",
+      "s14"
+    ],
+    "blockers": [
+      {
+        "id": "s27b0",
+        "title": "Authentication dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2024-02-10",
+        "resolvedAt": null,
+        "ownerId": "p5"
+      },
+      {
+        "id": "s27b1",
+        "title": "Blocker 2",
+        "openedAt": "2025-03-16",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p10"
+      },
+      {
+        "id": "s27b2",
+        "title": "Blocker 3",
+        "openedAt": "2024-03-14",
+        "resolvedAt": null,
+        "ownerId": "p4"
+      },
+      {
+        "id": "s27b3",
+        "title": "Blocker 4",
+        "openedAt": "2026-07-17",
+        "resolvedAt": null,
+        "ownerId": "p1"
+      },
+      {
+        "id": "s27b4",
+        "title": "Authentication dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2026-04-13",
+        "resolvedAt": null,
+        "ownerId": "p3"
+      },
+      {
+        "id": "s27b5",
+        "title": "Blocker 6",
+        "openedAt": "2026-05-14",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p10"
+      },
+      {
+        "id": "s27b6",
+        "title": "Blocker 7",
+        "openedAt": "2026-05-12",
+        "resolvedAt": null,
+        "ownerId": "p7"
+      },
+      {
+        "id": "s27b7",
+        "title": "Blocker 8",
+        "openedAt": "2026-05-18",
+        "resolvedAt": null,
+        "ownerId": "p6"
+      },
+      {
+        "id": "s27b8",
+        "title": "Containerization dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2024-06-15",
+        "resolvedAt": null,
+        "ownerId": "p9"
+      },
+      {
+        "id": "s27b9",
+        "title": "Blocker 10",
+        "openedAt": "2026-03-15",
+        "resolvedAt": null,
+        "ownerId": "p1"
+      },
+      {
+        "id": "s27b10",
+        "title": "Blocker 11",
+        "openedAt": "2024-07-16",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p8"
+      },
+      {
+        "id": "s27b11",
+        "title": "Blocker 12",
+        "openedAt": "2024-09-18",
+        "resolvedAt": null,
+        "ownerId": "p10"
+      },
+      {
+        "id": "s27b12",
+        "title": "Authentication dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2025-07-13",
+        "resolvedAt": null,
+        "ownerId": "p10"
+      },
+      {
+        "id": "s27b13",
+        "title": "Blocker 14",
+        "openedAt": "2024-07-16",
+        "resolvedAt": null,
+        "ownerId": "p9"
+      },
+      {
+        "id": "s27b14",
+        "title": "Blocker 15",
+        "openedAt": "2024-02-18",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p3"
+      },
+      {
+        "id": "s27b15",
+        "title": "Blocker 16",
+        "openedAt": "2026-09-11",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p5"
+      }
+    ]
+  },
+  {
+    "id": "s28",
+    "name": "Internationalization Interoperability Migration 28 for Internal Tooling",
+    "ownerId": "p12",
+    "teamId": "growth",
+    "memberIds": [
+      "p12",
+      "p10",
+      "p5",
+      "p7"
+    ],
+    "priority": "high",
+    "status": "at-risk",
+    "progress": 100,
+    "statusUpdatedAt": "2025-02-11",
+    "startDate": "2024-01-15",
+    "dueDate": "2029-06-30",
+    "tasks": {
+      "total": 357,
+      "done": 264
+    },
+    "weeklyCompleted": [
+      4,
+      5,
+      57,
+      7,
+      7,
+      91
+    ],
+    "dependsOn": [
+      "s22",
+      "s18"
+    ],
+    "blockers": [
+      {
+        "id": "s28b0",
+        "title": "Decommissioning dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2025-04-11",
+        "resolvedAt": null,
+        "ownerId": "p1"
+      },
+      {
+        "id": "s28b1",
+        "title": "Blocker 2",
+        "openedAt": "2024-09-16",
+        "resolvedAt": null,
+        "ownerId": "p6"
+      }
+    ]
+  },
+  {
+    "id": "s29",
+    "name": "Interoperability Authentication Program 29 for Enterprise Customers",
+    "ownerId": "p12",
+    "teamId": "growth",
+    "memberIds": [
+      "p12",
+      "p2"
+    ],
+    "priority": "medium",
+    "status": "complete",
+    "progress": 3,
+    "statusUpdatedAt": "2024-06-30",
+    "startDate": "2024-01-15",
+    "dueDate": null,
+    "tasks": {
+      "total": 265,
+      "done": 162
+    },
+    "weeklyCompleted": [
+      98,
+      3,
+      0,
+      3,
+      2,
+      7
+    ],
+    "dependsOn": [
+      "s17",
+      "s3"
+    ],
+    "blockers": [
+      {
+        "id": "s29b0",
+        "title": "Authentication dependency on an external vendor that has not responded to escalation emails since the spring planning cycle",
+        "openedAt": "2024-02-12",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p5"
+      },
+      {
+        "id": "s29b1",
+        "title": "Blocker 2",
+        "openedAt": "2026-05-10",
+        "resolvedAt": "2026-10-01",
+        "ownerId": "p2"
+      }
+    ]
+  }
+]

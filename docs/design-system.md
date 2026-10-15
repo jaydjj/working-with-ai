@@ -1,0 +1,42 @@
+# Design system
+
+Intent and rules for the portfolio dashboard. Implementation lives in `src/`; this page says *why* and *when*. It starts small on purpose and grows from the work. Anything set up without the designer is marked as an AI default in the [decision log](./decisions.md).
+
+## Principles
+
+1. **Say who said it.** Status and progress are self-reported by project owners. Wherever they appear, the UI says so. Facts the system can compute are a different kind of information and must never be dressed up as the owner's word, or the other way around.
+2. **Color never carries meaning alone.** Every color-coded element also has text. Color reinforces; it never replaces.
+3. **Real data sets the layout.** Design for the longest name, the oldest date and the missing value, not the tidy average. Check every new column or row element against `?stress` data before shipping it.
+
+## Policy and design are separate
+
+- **Policy** decides what something *is* (what counts as at risk, how many days makes a status stale). Policy values are named constants in code, never buried in CSS or copy.
+- **Design** decides how it *looks* (how at-risk is shown).
+- Every entry in the decision log says which one it is.
+
+## Tokens
+
+- Two layers in `src/tokens.css`: a raw palette (`--palette-*`) and semantic tokens (`--color-*`, `--space-*`, `--font-*`, `--radius-*`).
+- Components use semantic tokens only. A component that needs a new meaning gets a new semantic token, not a palette value.
+- Status colors exist as `--color-status-<status>-bg | -fg | -dot` and are reserved for self-reported status.
+
+## Components
+
+| Component | Use it for | Rules |
+|---|---|---|
+| **Table** | Lists of records with comparable attributes | One column holds the primary text and wraps; all other columns stay on one line and truncate with the full value available on hover. Header notes (e.g. "self-reported") sit under the column name. |
+| **StatusBadge** | A self-reported project status | Always shows the label. Only for status as reported by the owner. |
+| **ProgressBar** | A 0–100 percentage | The number is always visible. Neutral color: progress is not a judgment. |
+| **AppFooter** | Data provenance and the link to these docs | One per page. States the as-of date. |
+
+## Patterns
+
+- **Dates.** The dataset has a fixed "as of" date. Relative wording ("due in 3 days") is computed from it, never from the real clock. Absolute dates read as `12 Oct 2026`.
+- **Stress data.** Add `?stress` to the URL to load messy data (very long names, many blockers, very old statuses, far-off and long-overdue dates).
+
+## Open questions
+
+- Should the system ever judge a project's health, or only show facts beside the owner's status?
+- How should a missing value (for example, no due date) read: blank, a dash, or words?
+- What is the default sort order, and is it the designer's or the data's?
+- Dark mode: needed for this audience, or not?

@@ -1,0 +1,56 @@
+name: Deploy site
+
+# main → site root; frozen baseline branch → /baseline/. One run builds both.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      BASE: /${{ github.event.repository.name }}/
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Build main
+        run: npm run build -- --base "$BASE"
+      - name: Build baseline (reuses main's node_modules)
+        run: |
+          if git rev-parse --verify --quiet origin/baseline >/dev/null; then
+            git worktree add --detach ../baseline origin/baseline
+            ln -s "$PWD/node_modules" ../baseline/node_modules
+            out="$PWD/dist/baseline"
+            (cd ../baseline && npm run build -- --base "${BASE}baseline/" --outDir "$out" --emptyOutDir)
+          else
+            echo "No baseline branch yet; skipping."
+          fi
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
