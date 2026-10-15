@@ -12,6 +12,9 @@ const root = resolve(import.meta.dirname, '..');
 const docsDir = resolve(root, 'docs');
 /** Preferred nav order; any other docs follow alphabetically. */
 const ORDER = ['plan', 'design-system', 'decisions', 'opportunities'];
+/** The app's font, self-hosted next to the docs pages so every viewer sees the same type. */
+const FONT_FILE = resolve(root, 'node_modules/@fontsource-variable/plus-jakarta-sans/files/plus-jakarta-sans-latin-wght-normal.woff2');
+const FONT_FACE = `@font-face { font-family: "Plus Jakarta Sans Variable"; font-style: normal; font-display: swap; font-weight: 200 800; src: url(font.woff2) format("woff2"); }`;
 
 interface Doc { slug: string; title: string; html: string }
 
@@ -54,7 +57,7 @@ function page(docs: Doc[], current: string, title: string, body: string) {
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22%3E%3Crect width=%2216%22 height=%2216%22 rx=%223%22 fill=%22%234651d9%22/%3E%3C/svg%3E" />
 <title>${title} · Portfolio docs</title>
-<style>${tokens}\n${css}</style>
+<style>${FONT_FACE}\n${tokens}\n${css}</style>
 </head>
 <body>
 <header class="docs-header">
@@ -83,10 +86,15 @@ export function docsPlugin(): Plugin {
       for (const [name, source] of render()) {
         this.emitFile({ type: 'asset', fileName: `docs/${name}`, source });
       }
+      this.emitFile({ type: 'asset', fileName: 'docs/font.woff2', source: readFileSync(FONT_FILE) });
     },
     configureServer(server) {
       server.watcher.add(docsDir);
       server.middlewares.use((req, res, next) => {
+        if (req.url?.endsWith('/docs/font.woff2')) {
+          res.setHeader('Content-Type', 'font/woff2');
+          return res.end(readFileSync(FONT_FILE));
+        }
         const m = req.url?.match(/\/docs\/([\w-]*\.html)?(\?.*)?$/);
         if (!m) return next();
         const html = render().get(m[1] || 'index.html');

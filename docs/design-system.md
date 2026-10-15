@@ -14,19 +14,25 @@ Intent and rules for the portfolio dashboard. Implementation lives in `src/`; th
 - **Design** decides how it *looks* (how at-risk is shown).
 - Every entry in the decision log says which one it is.
 
+## Visual direction: Soft
+
+Warm off-white canvas, cream surfaces, generous spacing, large radii and a single violet accent. Typography is Plus Jakarta Sans, self-hosted so every viewer sees the same type. Color is kept for meaning (status) and the one accent; everything else is warm neutral.
+
 ## Tokens
 
 - Two layers in `src/tokens.css`: a raw palette (`--palette-*`) and semantic tokens (`--color-*`, `--space-*`, `--font-*`, `--radius-*`).
 - Components use semantic tokens only. A component that needs a new meaning gets a new semantic token, not a palette value.
 - Status colors exist as `--color-status-<status>-bg | -fg | -dot` and are reserved for self-reported status.
+- Text tokens, including `--color-text-subtle`, keep at least 4.5:1 contrast on surfaces. Small, quiet text still carries meaning (for example "self-reported").
+- The accent (`--color-accent`) marks interactive and neutral data elements, never a judgment.
 
 ## Components
 
 | Component | Use it for | Rules |
 |---|---|---|
-| **Table** | Lists of records with comparable attributes | One column holds the primary text and wraps; all other columns stay on one line and truncate with the full value available on hover. Header notes (e.g. "self-reported") sit under the column name. |
+| **Table** | Lists of records with comparable attributes | Sits on a borderless card with a soft shadow. Headers are sentence case. One column holds the primary text and wraps; all other columns stay on one line and truncate with the full value available on hover. Header notes (e.g. "self-reported") sit under the column name. |
 | **StatusBadge** | A self-reported project status | Always shows the label. Only for status as reported by the owner. |
-| **ProgressBar** | A 0–100 percentage | The number is always visible. Neutral color: progress is not a judgment. |
+| **ProgressBar** | A 0–100 percentage | The number is always visible. Uses the accent color, never status colors: progress is not a judgment. |
 | **AppFooter** | Data provenance and the link to these docs | One per page. States the as-of date. |
 
 ## Patterns

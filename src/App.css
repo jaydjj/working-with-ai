@@ -9,14 +9,16 @@
 .app__eyebrow {
   margin: 0 0 var(--space-1);
   font-size: var(--font-size-sm);
-  color: var(--color-text-muted);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-accent-text);
 }
 
 .app__title {
   margin: 0;
   font-size: var(--font-size-xl);
-  font-weight: var(--font-weight-semibold);
+  font-weight: var(--font-weight-bold);
   line-height: var(--line-height-tight);
+  letter-spacing: var(--letter-spacing-display);
 }
 
 .app__summary {
@@ -33,4 +35,4 @@
   font-size: var(--font-size-sm);
 }
 
-.app__project-name { font-weight: var(--font-weight-medium); }
+.app__project-name { font-weight: var(--font-weight-semibold); }

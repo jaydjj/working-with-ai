@@ -7,7 +7,7 @@
 
 .progress-bar__track {
   flex: 1;
-  height: 6px;
+  height: 8px;
   border-radius: var(--radius-pill);
   background: var(--color-meter-track);
   overflow: hidden;
@@ -24,6 +24,7 @@
   flex: none;
   text-align: right;
   font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
   font-variant-numeric: tabular-nums;
-  color: var(--color-text-muted);
+  color: var(--color-text);
 }
