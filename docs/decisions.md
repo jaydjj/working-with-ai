@@ -20,3 +20,4 @@ Type is **policy** (what something is), **design** (how it looks or behaves) or 
 | 12 | **Visual direction: Soft.** Warm neutrals, cream surfaces, large radii, violet accent, Plus Jakarta Sans, tinted status pills. | design | A · Precise (quiet, dense, Inter); C · Contrast (dark only, Geist) | Designer |
 | 13 | Fonts are self-hosted with the site instead of relying on what's installed on the viewer's machine. | engineering | System font stack (looked different on every machine) | AI default, open to review |
 | 14 | Subtle text keeps at least 4.5:1 contrast. The Soft mockup's lightest gray (2.7:1) was darkened. | design | Keep the lighter gray (fails WCAG AA for small text) | AI default, open to review |
+| 15 | **Baseline restyled and re-frozen** at commit `7dc608b` so before/after compares features, not polish. Same table, same data, Soft styling. Read-only again from here. | engineering | Leave baseline in the old style | Designer |

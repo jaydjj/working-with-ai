@@ -4,8 +4,9 @@ One page: where we are and what comes next.
 
 ## Done
 
+- **Design system direction.** Soft chosen by the designer; applied to main and baseline.
 - **Baseline.** A polished, deliberately limited table: project, owner, self-reported status and progress. The dataset behind it knows much more than the UI shows.
-  Frozen at commit `83af58c`; compare any time at [/baseline/](https://jaydjj.github.io/working-with-ai/baseline/).
+  Restyled to the Soft direction and re-frozen at commit `7dc608b`; compare any time at [/baseline/](https://jaydjj.github.io/working-with-ai/baseline/).
 
 ## Next
 
