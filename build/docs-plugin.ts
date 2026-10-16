@@ -11,7 +11,7 @@ import type { Plugin } from 'vite';
 const root = resolve(import.meta.dirname, '..');
 const docsDir = resolve(root, 'docs');
 /** Preferred nav order; any other docs follow alphabetically. */
-const ORDER = ['plan', 'design-system', 'decisions', 'opportunities'];
+const ORDER = ['plan', 'design-system', 'decisions', 'discovery', 'opportunities'];
 /** The app's font, self-hosted next to the docs pages so every viewer sees the same type. */
 const FONT_FILE = resolve(root, 'node_modules/@fontsource-variable/plus-jakarta-sans/files/plus-jakarta-sans-latin-wght-normal.woff2');
 const FONT_FACE = `@font-face { font-family: "Plus Jakarta Sans Variable"; font-style: normal; font-display: swap; font-weight: 200 800; src: url(font.woff2) format("woff2"); }`;

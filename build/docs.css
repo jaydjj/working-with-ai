@@ -50,3 +50,4 @@ a:hover { color: var(--color-link-hover); }
   font-size: var(--font-size-xs);
   color: var(--color-text-subtle);
 }
+@media (max-width: 720px) { .docs-body table { display: block; overflow-x: auto; } }
