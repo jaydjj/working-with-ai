@@ -4,7 +4,7 @@ Intent and rules for the portfolio dashboard. Implementation lives in `src/`; th
 
 ## Principles
 
-1. **Say who said it.** Status and progress are self-reported by project owners. Wherever they appear, the UI says so. Facts the system can compute are a different kind of information and must never be dressed up as the owner's word, or the other way around.
+1. **Say who said it.** Status and progress are self-reported by project owners. Wherever they appear, the UI says so. Facts the system can compute are a different kind of information and must never be dressed up as the owner's word, or the other way around. The same goes for any data that's unreliable (of unknown origin, a proxy, or too thin to trust): flag it where it appears.
 2. **Color never carries meaning alone.** Every color-coded element also has text. Color reinforces; it never replaces.
 3. **Real data sets the layout.** Design for the longest name, the oldest date and the missing value, not the tidy average. Check every new column or row element against `?stress` data before shipping it.
 

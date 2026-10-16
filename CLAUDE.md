@@ -16,6 +16,7 @@ We are building a project portfolio dashboard live, in front of product designer
 
 - Policy (what counts as at risk) is separate from design (how at-risk looks). Say which a decision is. Thresholds are named constants in code, never in CSS.
 - Color never carries meaning alone; always pair it with text.
+- Always flag unreliable data: anything self-reported, of unknown origin, a proxy, or too thin to trust. Say so where it appears in UI and docs, and say who set it when known (designer, 16 Oct 2026).
 - Status and progress are self-reported; say so wherever they appear. Whether the system may judge is the designer's call, not yet made.
 - Before shipping a new column or row element, load `?stress` and look at it.
 - Relative dates use the dataset's fixed as-of date (`src/data/meta.json`), never the real clock.
