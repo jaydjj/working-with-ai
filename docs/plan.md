@@ -12,7 +12,8 @@ One page: where we are and what comes next.
 
 ## Next
 
-- **Roadmap** drafted as Now / Next / Later in [Roadmap](./opportunities.md). Waiting on the designer to choose what to build.
+- **Roadmap** in [Roadmap](./opportunities.md); the designer chose Now items 1–4.
+- **Build: Now items.** Status age, measured progress, due date and open blockers are in the table, with decisions 16–24 logged.
 
 ## Later
 

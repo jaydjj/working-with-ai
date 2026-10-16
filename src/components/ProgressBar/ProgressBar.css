@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   gap: var(--space-3);
-  min-width: 140px;
+  min-width: 120px;
 }
 
 .progress-bar__track {

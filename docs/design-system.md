@@ -33,11 +33,13 @@ Warm off-white canvas, cream surfaces, generous spacing, large radii and a singl
 | **Table** | Lists of records with comparable attributes | Sits on a borderless card with a soft shadow. Headers are sentence case. One column holds the primary text and wraps; all other columns stay on one line and truncate with the full value available on hover. Header notes sit under the column name and say where every line in the column comes from ("self-reported", "set by owner", "self-reported · age computed"). A cell may carry one **detail line**: a fact that checks the value above it, in small subtle text. A fact that stands on its own gets a column instead. |
 | **StatusBadge** | A self-reported project status | Always shows the label. Only for status as reported by the owner. |
 | **ProgressBar** | A 0–100 percentage | The number is always visible. Uses the accent color, never status colors: progress is not a judgment. |
+| **Attention** | A computed fact past a policy threshold (status older than the stale limit, a date past due) | Weight only: full-strength text in semibold. Never a color, since color is reserved for self-reported status. The words must still say what's wrong on their own. |
 | **AppFooter** | Data provenance and the link to these docs | One per page. States the as-of date. |
 
 ## Patterns
 
 - **Computed facts.** Facts the system derives (status age, share of tasks done, blocker age) are plain text, never badges or bars, so they can't be mistaken for the owner's word. Their source is named in the header note, not on every row.
+- **Missing values** are stated in words that say what's missing ("No due date", "None open"). Never a blank or a dash.
 - **Provenance.** Every column says who set its data. When the source is unknown, say "origin unknown" rather than leaving it blank.
 
 - **Dates.** The dataset has a fixed "as of" date. Relative wording ("due in 3 days") is computed from it, never from the real clock. Absolute dates read as `12 Oct 2026`.
@@ -46,6 +48,5 @@ Warm off-white canvas, cream surfaces, generous spacing, large radii and a singl
 ## Open questions
 
 - Should the system ever judge a project's health, or only show facts beside the owner's status?
-- How should a missing value (for example, no due date) read: blank, a dash, or words?
 - What is the default sort order, and is it the designer's or the data's?
 - Dark mode: needed for this audience, or not?

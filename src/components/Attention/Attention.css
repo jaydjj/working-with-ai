@@ -1,0 +1,4 @@
+.attention {
+  color: var(--color-text-attention);
+  font-weight: var(--font-weight-attention);
+}

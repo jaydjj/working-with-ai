@@ -2,6 +2,8 @@ import { dataset, isStress } from './data';
 import type { Project } from './data/types';
 import { formatAgo, formatDate, formatDue } from './format';
 import { projectFacts } from './data/facts';
+import { STALE_AFTER_DAYS } from './policy';
+import { Attention } from './components/Attention/Attention';
 import { Table, type Column } from './components/Table/Table';
 import { StatusBadge } from './components/StatusBadge/StatusBadge';
 import { ProgressBar } from './components/ProgressBar/ProgressBar';
@@ -30,7 +32,11 @@ const columns: Column<Project>[] = [
     note: 'self-reported · age computed',
     width: '17%',
     render: (p) => <StatusBadge status={p.status} />,
-    detail: (p) => `Updated ${formatAgo(facts(p).statusAgeDays)}`,
+    detail: (p) => {
+      const days = facts(p).statusAgeDays;
+      const text = `Updated ${formatAgo(days)}`;
+      return p.status !== 'complete' && days > STALE_AFTER_DAYS ? <Attention>{text}</Attention> : text;
+    },
   },
   {
     key: 'progress',
@@ -53,7 +59,8 @@ const columns: Column<Project>[] = [
       if (days === null) return 'No due date';
       // A finished project isn't overdue or upcoming; the data has no completion date, so show the plain date.
       if (p.status === 'complete') return formatDate(p.dueDate!);
-      return <span title={formatDate(p.dueDate!)}>{formatDue(days)}</span>;
+      const text = formatDue(days);
+      return <span title={formatDate(p.dueDate!)}>{days < 0 ? <Attention>{text}</Attention> : text}</span>;
     },
   },
   {

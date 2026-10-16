@@ -27,3 +27,6 @@ Type is **policy** (what something is), **design** (how it looks or behaves) or 
 | 19 | **Computed facts are marked in the header note**, which names the source of every line in the column (e.g. "self-reported · age computed"). Facts are plain subtle text with no tag or icon. | design | Inline "computed" tag on each fact; icon with legend | Designer |
 | 20 | Due dates are labelled "set by owner" and blockers "logged by team". Inferred from the activity log (the one due-date change was made by the owner), not stated in the data. | policy | Leave unlabelled | AI default, open to review |
 | 21 | A completed project's due date shows as a plain date, never "overdue". The data has no completion date. | design | Keep "23 days overdue" (wrong for finished work) | AI default, open to review |
+| 22 | **Missing values read in words** ("No due date"). | design | A dash (ambiguous, read aloud as "dash"); blank (looks broken) | Designer |
+| 23 | **Stale and overdue get weight, not color.** Past a threshold, the fact switches to full-strength semibold text (the Attention component). | design | No emphasis; a new attention color | Designer |
+| 24 | A status is stale after **14 days** (`STALE_AFTER_DAYS`). Completed projects are never stale. | policy | 7 days; 30 days | AI default, open to review |
