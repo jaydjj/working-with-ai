@@ -7,6 +7,8 @@ export interface Column<T> {
   /** Short qualifier under the header, e.g. "self-reported". */
   note?: string;
   render: (row: T) => ReactNode;
+  /** Optional detail line under the value: a fact that checks it. Name its source in `note`. */
+  detail?: (row: T) => ReactNode;
   /** Columns that hold primary text wrap; everything else stays on one line. */
   wrap?: boolean;
   width?: string;
@@ -40,11 +42,15 @@ export function Table<T>({ caption, columns, rows, rowKey }: Props<T>) {
         <tbody>
           {rows.map((row) => (
             <tr key={rowKey(row)}>
-              {columns.map((c) => (
-                <td key={c.key} className={c.wrap ? 'table__cell--wrap' : 'table__cell--nowrap'}>
-                  {c.render(row)}
-                </td>
-              ))}
+              {columns.map((c) => {
+                const detail = c.detail?.(row);
+                return (
+                  <td key={c.key} className={c.wrap ? 'table__cell--wrap' : 'table__cell--nowrap'}>
+                    <div className="table__value">{c.render(row)}</div>
+                    {detail != null && <div className="table__detail">{detail}</div>}
+                  </td>
+                );
+              })}
             </tr>
           ))}
         </tbody>

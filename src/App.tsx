@@ -1,6 +1,7 @@
 import { dataset, isStress } from './data';
 import type { Project } from './data/types';
-import { formatDate } from './format';
+import { formatAgo, formatDate, formatDue } from './format';
+import { projectFacts } from './data/facts';
 import { Table, type Column } from './components/Table/Table';
 import { StatusBadge } from './components/StatusBadge/StatusBadge';
 import { ProgressBar } from './components/ProgressBar/ProgressBar';
@@ -9,20 +10,66 @@ import './App.css';
 
 const peopleById = new Map(dataset.people.map((p) => [p.id, p]));
 const rows = [...dataset.projects].sort((a, b) => a.name.localeCompare(b.name));
+const factsById = new Map(rows.map((p) => [p.id, projectFacts(p, dataset.meta.asOf)]));
+const facts = (p: Project) => factsById.get(p.id)!;
 
 const columns: Column<Project>[] = [
-  { key: 'name', header: 'Project', wrap: true, width: '44%', render: (p) => <span className="app__project-name">{p.name}</span> },
+  { key: 'name', header: 'Project', wrap: true, width: '22%', render: (p) => <span className="app__project-name">{p.name}</span> },
   {
     key: 'owner',
     header: 'Owner',
-    width: '20%',
+    width: '14%',
     render: (p) => {
       const name = peopleById.get(p.ownerId)?.name ?? 'Unassigned';
       return <span title={name}>{name}</span>;
     },
   },
-  { key: 'status', header: 'Status', note: 'self-reported', width: '16%', render: (p) => <StatusBadge status={p.status} /> },
-  { key: 'progress', header: 'Progress', note: 'self-reported', width: '20%', render: (p) => <ProgressBar value={p.progress} label="Self-reported progress" /> },
+  {
+    key: 'status',
+    header: 'Status',
+    note: 'self-reported · age computed',
+    width: '17%',
+    render: (p) => <StatusBadge status={p.status} />,
+    detail: (p) => `Updated ${formatAgo(facts(p).statusAgeDays)}`,
+  },
+  {
+    key: 'progress',
+    header: 'Progress',
+    note: 'self-reported · tasks counted',
+    width: '17%',
+    render: (p) => <ProgressBar value={p.progress} label="Self-reported progress" />,
+    detail: (p) => {
+      const pct = facts(p).tasksDonePct;
+      return pct === null ? 'No tasks' : `${pct}% of tasks done`;
+    },
+  },
+  {
+    key: 'due',
+    header: 'Due',
+    note: 'set by owner',
+    width: '16%',
+    render: (p) => {
+      const days = facts(p).dueInDays;
+      if (days === null) return 'No due date';
+      // A finished project isn't overdue or upcoming; the data has no completion date, so show the plain date.
+      if (p.status === 'complete') return formatDate(p.dueDate!);
+      return <span title={formatDate(p.dueDate!)}>{formatDue(days)}</span>;
+    },
+  },
+  {
+    key: 'blockers',
+    header: 'Blockers',
+    note: 'logged by team',
+    width: '14%',
+    render: (p) => {
+      const n = facts(p).openBlockers;
+      return n ? `${n} open` : 'None open';
+    },
+    detail: (p) => {
+      const days = facts(p).oldestBlockerDays;
+      return days === null ? null : `oldest ${days === 1 ? '1 day' : `${days} days`}`;
+    },
+  },
 ];
 
 export function App() {
@@ -40,7 +87,7 @@ export function App() {
         )}
       </header>
       <main>
-        <Table caption="Projects with owner, self-reported status and self-reported progress" columns={columns} rows={rows} rowKey={(p) => p.id} />
+        <Table caption="Projects with owner, self-reported status and progress, due date and open blockers" columns={columns} rows={rows} rowKey={(p) => p.id} />
       </main>
       <AppFooter asOf={asOf} />
     </div>

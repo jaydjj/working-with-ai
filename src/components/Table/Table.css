@@ -9,7 +9,7 @@
   width: 100%;
   border-collapse: collapse;
   table-layout: fixed;
-  min-width: 720px;
+  min-width: 1040px;
 }
 
 .table th {
@@ -39,4 +39,11 @@
 .table tbody tr:hover td { background: var(--color-surface-hover); }
 
 .table__cell--wrap { overflow-wrap: anywhere; }
-.table__cell--nowrap { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.table__cell--nowrap > * { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+/* A fact that checks the value above it. Plain text: never a badge or bar. */
+.table__detail {
+  margin-top: var(--space-1);
+  font-size: var(--font-size-xs);
+  color: var(--color-text-subtle);
+}

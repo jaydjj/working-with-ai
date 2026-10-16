@@ -1,8 +1,10 @@
-const dateFormat = new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' });
+// Spelled out rather than Intl: some engines write "Sept", and the design system says three letters.
+const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
 /** Formats an ISO date (YYYY-MM-DD) as "12 Oct 2026". */
 export function formatDate(iso: string): string {
-  return dateFormat.format(new Date(iso + 'T00:00:00Z'));
+  const [y, m, d] = iso.split('-').map(Number);
+  return `${d} ${MONTHS[m - 1]} ${y}`;
 }
 
 const plural = (n: number, word: string) => `${n} ${word}${n === 1 ? '' : 's'}`;
